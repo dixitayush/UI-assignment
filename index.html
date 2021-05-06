@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style1.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?arrow_forward_ios">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+    <title>Assignment 1</title>
+</head>
+
+<body>
+
+    <nav class="nav nav1 sticky-top" style="height: 50px;">
+        <button class="btn mx-4"><i class="fa fa-bars"></i></button>
+        <div class="justify-content-center icon1" style="margin:auto;">
+            <img style="height: 45px;" class="img-fluid img-responsive" src="./icon1.png" alt="">
+        </div>
+
+
+        <div class="justify-content-end" style="align-items:center;">
+            <div class=" nav-item notify-icon">
+                <img id="notificationbell" style="height:18px;" src="./notifiy-icon.png" alt="">
+                <img id="questionicon" src="./quest-icon.png" alt="">
+                <div class="dropdown" id="dpt">
+                    <a style="font: normal normal normal 14px/28px Roboto;
+                    letter-spacing: 0px;
+                    color: #000000;
+                    opacity: 1;" href="#" class="dropdown-toggle" data-toggle="dropdown"><span id="dpd">Lara
+                            Erickson</span></a>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">Action</a>
+                        <a href="#" class="dropdown-item">Another action</a>
+                    </div>
+                    <img style="height:25px;" src="./profile.png" alt="">
+                </div>
+
+            </div>
+        </div>
+    </nav>
+    <div class="container-sm my-5">
+        <div class="row d-flex justify-content-end">
+            <div class="card1" style="height:50px;
+            width:270px;">
+                <div class=" card-body d-flex justify-content-start align-items-center">
+                    <button type="button" style="background-color: #F1F1F1;border:none; border-color: white;
+                box-shadow: 0px 3px 6px #00000029;
+                opacity: 1;" class=" btn-circle btn-sm "><i style="font-size:15px;color: #514F48; font-weight:600; "
+                            class='fas fa-plus'></i></button>
+                    <span>
+                        <h5 style="font: normal normal medium 15px/20px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1; margin-left: 6px;">Create New Referral Program</h5>
+                    </span>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container my-4">
+        <div class="container">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+                <ol class="carousel-indicators">
+                    <li style=" width:10px;
+                    height:10px;
+                    border-radius:100%; margin-bottom:-80px; margin-right:5px; background-color: #F3BB03;"
+                        data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active circle-hover" 
+                        aria-current="true" aria-label="Slide 1"></li>
+                    <li style=" width:10px;
+                    height:10px;
+                    border-radius:100%;margin-bottom:-80px;margin-right:5px;"
+                        data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="active circle-hover" id="change" onclick="setColor()"
+                        aria-current="true" aria-label="Slide 2"></li>
+                    <li style=" width:10px;
+                    height:10px;
+                    border-radius:100%;margin-bottom:-80px;" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide-to="2" class="active circle-hover"  aria-current="true" aria-label="Slide 3"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2000">
+
+                        <div class="card-body  card-css-1">
+
+                            <div class="row">
+
+                                <div class="col-sm-4 col-lg-4 col-4 col-md-4">
+
+
+
+                                </div>
+                                <div class="col-sm-8 col-lg-8 d-flex justify-content-center align-items-center">
+                                    <div class="row my-4 text-start mx-3">
+                                        <div class="container-sm">
+                                            <h2 style="font: normal normal bold 29px/38px Roboto;
+                                        letter-spacing: 0px;
+                                        color:black;
+                                        opacity: 1;">Pro Tip
+                                                #1:
+                                            </h2>
+                                            <p class="card-para" style="font: normal normal medium 20px/26px Roboto;
+                                            letter-spacing: 0px;
+                                            color: #272727;
+                                            opacity: 1;">A/B Test Your Referral Program. Start Creating new Referral
+                                                Program
+                                                to find
+                                                out
+                                                which referral program strategy brings most of the revenue to your
+                                                Business.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+
+                        <div class="card-body  card-css-2">
+
+                            <div class="row">
+
+                                <div class="col-sm-4 col-lg-4 col-4 col-md-4">
+
+
+
+                                </div>
+                                <div class="col-sm-8 col-lg-8 d-flex justify-content-center align-items-center">
+                                    <div class="row my-4 text-start mx-3">
+                                        <div class="container-sm">
+                                            <h2 style="font: normal normal bold 29px/38px Roboto;
+                                        letter-spacing: 0px;
+                                        color: #FFFFFF;
+                                        opacity: 1;">Pro Tip
+                                                #2:
+                                            </h2>
+                                            <p class="card-para" style="font: normal normal medium 20px/26px Roboto;
+                                        letter-spacing: 0px;
+                                        color: #FFFFFF;
+                                        opacity: 1;">A/B Test Your Referral Program. Start Creating new Referral
+                                                Program
+                                                to find
+                                                out
+                                                which referral program strategy brings most of the revenue to your
+                                                Business.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+
+                        <div class="card-body  card-css-3">
+
+                            <div class="row">
+
+                                <div class="col-sm-4 col-lg-4 col-4 col-md-4">
+
+
+
+                                </div>
+                                <div class="col-sm-8 col-lg-8 d-flex justify-content-center align-items-center">
+                                    <div class="row my-4 text-start mx-3">
+                                        <div class="container-sm">
+                                            <h2 style="font: normal normal bold 29px/38px Roboto;
+                                        letter-spacing: 0px;
+                                        color: #FFFFFF;
+                                        opacity: 1;">Pro Tip
+                                                #3:
+                                            </h2>
+                                            <p class="card-para" style="font: normal normal medium 20px/26px Roboto;
+                                        letter-spacing: 0px;
+                                        color: #FFFFFF;
+                                        opacity: 1;">A/B Test Your Referral Program. Start Creating new Referral
+                                                Program
+                                                to find
+                                                out
+                                                which referral program strategy brings most of the revenue to your
+                                                Business.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" style="margin-top:50px;">
+        <div class="tabs2 position-relative">
+            <ul class="nav">
+                <li class="nav-item active"><a style="font: normal normal medium 27px/37px Roboto; font-weight: bolder; font-size:20px;background-color: #FFFFFF;
+                    letter-spacing: 0px;
+                    color: #707070;
+                    border-right: 3px solid #e4e2e2;
+                    opacity: 1;" data-toggle="tab" href="#Overview">Overview</a></li>
+                  
+                <li class="nav-item "><a style="font: normal normal medium 27px/37px Roboto; font-weight: bolder; font-size:20px; background-color: #FFFFFF;
+                    letter-spacing: 0px;
+                    color: #707070;
+                    opacity: 1;" data-toggle="tab" href="#analytics">Analytics</a></li>
+                    <hr>
+            </ul>
+            <div class="line"></div>
+
+        </div>
+        <hr>
+
+
+        <div class="tab-content">
+            <div id="Overview" class="tab-pane fade in active">
+                <div class="container my-3">
+                    <div class="row">
+                        <div class="col-sm-3 col-md-3 col-6 col-lg-3 my-3">
+                            <div class="card" style="box-shadow: 0px 3px 6px #0000002B;
+                                border-radius: 23px; background-color: #8DD8A8;width:108%;">
+                                <div class="card-body">
+                                    <div class="container-sm my-3">
+                                        <h4 class="card-title" style="font: normal normal medium 31px/40px Roboto;
+                                        letter-spacing: 0px;
+                                        color: #FFFFFF;
+                                        opacity: 1;">Referal Revenue</h4>
+                                        <p style="font: normal normal normal 14px/20px Roboto;
+                                        letter-spacing: 0px;
+                                        color: #FFFFFF;
+                                        opacity: 1;">In Last 7 days</p>
+                                    </div>
+                                    <div class="container-sm">
+                                        <img class="img-fluid img-responsive" style="height:42.82px; width:242px;"
+                                            src="./card-1-image.png" alt="" srcset="">
+                                    </div>
+                                    <div class="row d-flex justify-content-end mx-4 my-2">
+                                        <button class="btn-sm" style="
+                                            background-color:white;
+                                            border: none;
+                                            width: 80px;
+                                            height: 26px;
+                                            border-radius:12px;
+                                            font: normal normal medium 3px/8px Roboto;
+                                            letter-spacing: 0px;
+                                            font-weight: bold;
+                                             opacity: 1;
+                                            color:black;
+                                            cursor: pointer;
+                                          ">View <i class="fa fa-chevron-right"></i></button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3 col-md-3 col-6 col-lg-3 my-3">
+                            <div class="card"
+                                style="border-radius:23px; box-shadow: 0px 3px 6px #0000002B; background-color: #F6BCCA; width:108%;">
+                                <div class="card-body">
+                                    <div class="container-sm my-3">
+                                        <h4 class="card-title" style="font: normal normal medium 31px/40px Roboto;
+                                        letter-spacing: 0px;
+                                        color: #FFFFFF;
+                                        opacity: 1;">Revenue Collection</h4>
+                                        <p style="font: normal normal normal 14px/20px Roboto;
+                                        letter-spacing: 0px;
+                                        color: #FFFFFF;
+                                        opacity: 1;">In Last 7 days</p>
+                                    </div>
+                                    <div class="container-sm">
+                                        <img class="img-fluid img-responsive" style="height:42.82px; width:242px;"
+                                            src="./card-2-image.png" alt="" srcset="">
+                                    </div>
+                                    <div class="row d-flex justify-content-end mx-4 my-2">
+                                        <button class="btn-sm" style="
+                                            background-color:white;
+                                            border: none;
+                                            width: 80px;
+                                            height: 26px;
+                                            border-radius:12px;
+                                            font: normal normal medium 3px/8px Roboto;
+                                            letter-spacing: 0px;
+                                            font-weight: bold;
+                                             opacity: 1;
+                                            color:black;
+                                            cursor: pointer;
+                                          ">View <i class="fa fa-chevron-right"></i></button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-md-3 col-6 col-lg-3 my-3">
+                            <div class="card" style="box-shadow: 0px 3px 6px #0000002B;
+                                border-radius: 23px; background-color: #AEB0E9; width:108%;">
+                                <div class="card-body">
+                                    <div class="container-sm my-3">
+                                        <h4 class="card-title" style="font: normal normal medium 31px/40px Roboto;
+                                        letter-spacing: 0px;
+                                        color: #FFFFFF;
+                                        opacity: 1;">Conversation Rate</h4>
+                                        <p style="font: normal normal normal 14px/20px Roboto;
+                                        letter-spacing: 0px;
+                                        color: #FFFFFF;
+                                        opacity: 1;">In Last 7 days</p>
+                                    </div>
+                                    <div class="container-sm">
+                                        <img class="img-fluid img-responsive" style="height:42.82px; width:242px;"
+                                            src="./card-3-image.png" alt="" srcset="">
+                                    </div>
+                                    <div class="row d-flex justify-content-end mx-4 my-2">
+                                        <button class="btn-sm" style="
+                                            background-color:white;
+                                            border: none;
+                                            width: 80px;
+                                            height: 26px;
+                                            border-radius:12px;
+                                            font: normal normal medium 3px/8px Roboto;
+                                            letter-spacing: 0px;
+                                            font-weight: bold;
+                                             opacity: 1;
+                                            color:black;
+                                            cursor: pointer;
+                                          ">View <i class="fa fa-chevron-right"></i></button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="col-sm-3 col-md-3 col-6 col-lg-3 my-3 d-flex justify-content-start align-items-center">
+                            <div class="row-cols-md-1">
+                                <button type="button" style="background-color: #F1F1F1;
+                                border-color:#F1F1F1; margin-left:23px;
+                            box-shadow: 0px 3px 6px #00000029;
+                            border:none;
+                            opacity: 1;" class="btn-circle btn-sm d-flex justify-content-center align-items-center"><i
+                                        style="font-size:17px; color: #707070;" class='fas fa-angle-right'></i></button>
+                                <div class="conatiner-sm">
+                                    <h5 style="font: normal normal bold 12px/17px Roboto;
+                                letter-spacing: 0px;
+                                color: #3181F8;
+                                opacity: 1;">view Analytics</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="container my-4">
+                    <div class="row container-sm my-4">
+                
+                        <div class="col-9 col-sm-9 col-md-9 col-lg-9 d-flex justify-content-start align-items-center">
+                            <ul class="nav" style="position: relative;">
+                                <img style="height:40px; margin-right:10px;" class="img-fluid img-responsive nav-item"
+                                    src="./2-row-trophy.png" alt="" srcset="">
+                                <li class="nav-item">
+                                    <h5 style="
+                            font: normal normal bold 19px Roboto;
+                            letter-spacing: 0px;
+                            white-space : nowrap;
+                            color: #707070;
+                            margin-right:10px;
+                            opacity: 1;" class="custom-trophy-text-css">All Referral Programs</h5>
+                                </li>
+
+                                <li class="nav-item"><button
+                                        style="background-color:#AEB0E9;margin-right:10px;border: none; border-color:#AEB0E9;box-shadow: 0px 3px 6px #00000029; border-radius:16px;width:200px; height:45px;"
+                                        type="button"
+                                        class="btn-sm nav-item d-flex justify-content-start align-items-center"><img
+                                            class="img-fluid img-responsive" style="height:19px; margin-left:14px;"
+                                            src="./row-card-image.png" alt="" srcset="">
+                                        <div class="container-sm d-flex justify-content-start"><span
+                                                class="d-flex justify-content-start">
+                                                <h5 style="font: normal normal medium 14px/20px Roboto;
+                                    letter-spacing: 0px;
+                                   color: #FFFFFF;
+                                    opacity: 1;">Show in Analytics</h5>
+                                            </span>
+                                        </div>
+                                    </button></li>
+                            </ul>
+                        </div>
+
+
+                        <div class="col-3 col-sm-3 col-lg-3 d-flex  justify-content-startS align-items-center">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                class="bi bi-download" viewBox="0 0 16 16" style="margin-left:25px;">
+                                <path
+                                    d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z" />
+                                <path
+                                    d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z" />
+                            </svg>
+                            <h5 id="Download-text" style="font: normal normal normal 19px/25px Roboto;
+                            letter-spacing: 0px;
+                            color: #707070;
+                            opacity: 1;
+                            clear: both;
+                              margin-left:8px;
+                              opacity: 1;"> Download PDF/CSV</h5>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="container my-3" id="div-desktop">
+                    <div class="table-responsive" style="box-shadow: 0px 0px 20px #00000029;
+                    border-radius:28px;
+                    opacity: 1;">
+
+                        <table class="table">
+                            <thead>
+                                <tr class="bg-dark text-light" style="height:90px; text-align: center;">
+                                    <th class="mb-3 pb-5 justify-content-center align-items-center"
+                                        style="text-align: center;" scope="col ">S.No.</th>
+                                    <th class="mb-3 pb-5" style="text-align: center;" scope="col">Referral Program Name
+                                    </th>
+                                    <th class="mb-3 pb-5" style="text-align: center;" scope="col">Customers</th>
+                                    <th class="mb-3 pb-5" style="text-align: center;" scope="col">Orders Placed using
+                                        Coupon
+                                    </th>
+                                    <th class="mb-3 pb-5" style="text-align: center;" scope="col">Total Revenue</th>
+                                    <th class="mb-3 pb-5" style="text-align: center;" scope="col">Audience Weightage
+                                    </th>
+                                    <th class="mb-3 pb-5" style="text-align: center;" scope="col">Preview/Settings</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr style="height: 80px;text-align: center;">
+                                    <th class="pt-5" style="text-align: center;" scope="row">1.</th>
+                                    <td class="pt-5" style="text-align: center;font-weight:550; ">My Referal Program 1
+                                    </td>
+                                    <td class="pt-5" style="text-align: center;font-weight:550;">67</td>
+                                    <td class="pt-5" style="text-align: center;font-weight:550;">45</td>
+                                    <td class="pt-5" style="text-align: center;font-weight:550;">$22</td>
+                                    <td class="pt-5"><button type="button"
+                                            style="border-radius:12px;border-color:#AEB0E9;border: none; color:white; background-color: #AEB0E9; width:80px;"
+                                            class="btn-sm justify-content-center">50%<i
+                                                style="font-size:12px ;margin-left:10px;margin-right:-17px;"
+                                                class='fas'>&#xf107;</i></button></td>
+                                    <td class="pt-5"><button type="button"
+                                            style="border-radius:12px;border: none;box-shadow: 0px 3px 10px #00000047; width:70px; background-color: #F3BB03; color: white; border-color: #F3BB03;"
+                                            class="btn-sm">Edit</button></td>
+                                </tr>
+                                <tr style="height: 80px;text-align: center;">
+                                    <th class="pt-5" style="text-align: center;" scope="row">2.</th>
+                                    <td class="pt-5" style="text-align: center;font-weight:550;">My Referal Program 2
+                                    </td>
+                                    <td class="pt-5" style="text-align: center;font-weight:550;">67</td>
+                                    <td class="pt-5" style="text-align: center;font-weight:550;">45</td>
+                                    <td class="pt-5" style="text-align: center;font-weight:550;">$22</td>
+                                    <td class="pt-5"><button type="button"
+                                            style="border-radius:12px;border-color:#AEB0E9;border: none; color:white; background-color: #AEB0E9; width:80px;"
+                                            class="btn-sm justify-content-center">50%<i
+                                                style="font-size:12px ;margin-left:10px;margin-right:-17px;"
+                                                class='fas'>&#xf107;</i></button></td>
+                                    <td class="pt-5"><button type="button"
+                                            style="border-radius:12px;border:none;box-shadow: 0px 3px 10px #00000047; width:70px; background-color: #F3BB03; color: white; border-color: #F3BB03;"
+                                            class="btn-sm">Edit</button></td>
+                                </tr>
+                                <tr style="height: 80px;text-align: center;">
+                                    <th class="pt-5" style="text-align: center;" scope="row">3.</th>
+                                    <td class="pt-5" style="text-align: center;font-weight:550;">My Referal Program 3
+                                    </td>
+                                    <td class="pt-5" style="text-align: center;font-weight:550;">67</td>
+                                    <td class="pt-5" style="text-align: center;font-weight:550;">45</td>
+                                    <td class="pt-5" style="text-align: center;font-weight:550;">$22</td>
+                                    <td class="pt-5"><button type="button"
+                                            style="border-radius:12px;border-color:#AEB0E9;border: none; color:white; background-color: #AEB0E9; width:80px;"
+                                            class="btn-sm justify-content-center">50%<i
+                                                style="font-size:12px ;margin-left:10px;margin-right:-17px;"
+                                                class='fas'>&#xf107;</i></button></td>
+                                    <td class="pt-5"><button type="button"
+                                            style="border-radius:12px;border:none;box-shadow: 0px 3px 10px #00000047; width:70px; background-color: #F3BB03; color: white; border-color: #F3BB03;"
+                                            class="btn-sm">Edit</button></td>
+                                </tr>
+                                <tr style="height: 80px;text-align: center;">
+                                    <th class="pt-5" style="text-align: center;" scope="row">4.</th>
+                                    <td class="pt-5" style="text-align: center;font-weight:550;">My Referal Program 4
+                                    </td>
+                                    <td class="pt-5" style="text-align: center;font-weight:550;">67</td>
+                                    <td class="pt-5" style="text-align: center;font-weight:550;">45</td>
+                                    <td class="pt-5" style="text-align: center;font-weight:550;">$22</td>
+                                    <td class="pt-5"><button type="button"
+                                            style="border-radius:12px;border-color:#AEB0E9;border: none; color:white; background-color: #AEB0E9; width:80px;"
+                                            class="btn-sm justify-content-center">50%<i
+                                                style="font-size:12px ;margin-left:10px;margin-right:-17px;"
+                                                class='fas'>&#xf107;</i></button></td>
+                                    <td class="pt-5"><button type="button"
+                                            style="border-radius:12px;border:none;box-shadow: 0px 3px 10px #00000047; width:70px; background-color: #F3BB03; color: white; border-color: #F3BB03;"
+                                            class="btn-sm">Edit</button></td>
+                                </tr>
+                                <tr style="height: 80px;text-align: center;">
+                                    <th class="pt-5" style="text-align: center;" scope="row">5.</th>
+                                    <td class="pt-5" style="text-align: center;font-weight:550;">My Referal Program 5
+                                    </td>
+                                    <td class="pt-5" style="text-align: center;font-weight:550;">67</td>
+                                    <td class="pt-5" style="text-align: center;font-weight:550;">45</td>
+                                    <td class="pt-5" style="text-align: center;font-weight:550;">$22</td>
+                                    <td class="pt-5"><button type="button"
+                                            style="border-radius:12px;border-color:#AEB0E9;border: none; color:white; background-color: #AEB0E9; width:80px;"
+                                            class="btn-sm justify-content-center">50%<i
+                                                style="font-size:12px ;margin-left:10px;margin-right:-17px;"
+                                                class='fas'>&#xf107;</i></button></td>
+                                    <td class="pt-5"><button type="button"
+                                            style="border-radius:12px;border:none;box-shadow: 0px 3px 10px #00000047; width:70px; background-color: #F3BB03; color: white; border-color: #F3BB03;"
+                                            class="btn-sm">Edit</button></td>
+                                </tr>
+                                <tr style="height: 80px; text-align: center;">
+                                    <th class="pt-5" style="text-align: center;" scope="row">6.</th>
+                                    <td class="pt-5" style="text-align: center;font-weight:550;">My Referal Program 6
+                                    </td>
+                                    <td class="pt-5" style="text-align: center;font-weight:550;">67</td>
+                                    <td class="pt-5" style="text-align: center;font-weight:550;">45</td>
+                                    <td class="pt-5" style="text-align: center;font-weight:550;">$22</td>
+                                    <td class="pt-5"><button type="button"
+                                            style="border-radius:12px;border-color:#AEB0E9;border: none; color:white; background-color: #AEB0E9; width:80px;"
+                                            class="btn-sm justify-content-center">50%<i
+                                                style="font-size:12px ;margin-left:10px;margin-right:-17px;"
+                                                class='fas'>&#xf107;</i></button></td>
+                                    <td class="pt-5"><button type="button"
+                                            style="border-radius:12px;border:none;box-shadow: 0px 3px 10px #00000047; width:70px; background-color: #F3BB03; color: white; border-color: #F3BB03;"
+                                            class="btn-sm">Edit</button></td>
+                                </tr>
+                                <tr style="height: 80px; text-align: center;">
+                                    <th class="pt-5" style="text-align: center;" scope="row">7.</th>
+                                    <td class="pt-5" style="text-align: center;font-weight:550;">My Referal Program 6
+                                    </td>
+                                    <td class="pt-5" style="text-align: center;font-weight:550;">67</td>
+                                    <td class="pt-5" style="text-align: center;font-weight:550;">45</td>
+                                    <td class="pt-5" style="text-align: center;font-weight:550;">$22</td>
+                                    <td class="pt-5"><button type="button"
+                                            style="border-radius:12px;border-color:#AEB0E9;border: none; color:white; background-color: #AEB0E9; width:80px;"
+                                            class="btn-sm justify-content-center">50%<i
+                                                style="font-size:12px ;margin-left:10px;margin-right:-17px;"
+                                                class='fas'>&#xf107;</i></button></td>
+                                    <td class="pt-5"><button type="button"
+                                            style="border-radius:12px;border:none;box-shadow: 0px 3px 10px #00000047; width:70px; background-color: #F3BB03; color: white; border-color: #F3BB03;"
+                                            class="btn-sm">Edit</button></td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="container my-3" id="div-mobile">
+                    <div class="table-responsive my-3" style="box-shadow: 0px 3px 20px #00000029;
+                    border-radius:28px;
+                    opacity: 1;">
+
+                        <table class="table">
+                            <thead>
+                                <tr class="bg-dark text-light" style="height:90px; text-align: center;">
+                                    <th class="mb-3 pb-5 justify-content-center align-items-center"
+                                        style="text-align: center;" scope="col ">S.No.</th>
+                                    <th class="mb-3 pb-5" style="text-align: center;" scope="col">Referral Program Name
+                                    </th>
+                                    <th class="mb-3 pb-5" style="text-align: center;" scope="col">Customers</th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr style="height: 80px;text-align: center;">
+                                    <th class="pt-5" style="text-align: center;" scope="row">1.</th>
+                                    <td class="pt-5" style="text-align: center;font-weight:550; ">My Referal mobile 1
+                                    </td>
+                                    <td class="pt-5" style="text-align: center;font-weight:550;">67</td>
+
+                                </tr>
+                                <tr style="height: 80px;text-align: center;">
+                                    <th class="pt-5" style="text-align: center;" scope="row">2.</th>
+                                    <td class="pt-5" style="text-align: center;font-weight:550;">My Referal Program 2
+                                    </td>
+                                    <td class="pt-5" style="text-align: center;font-weight:550;">67</td>
+
+                                </tr>
+
+
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="table-responsive my-3" style="box-shadow: 0px 3px 20px #00000029;
+                    border-radius:28px;
+                    opacity: 1;">
+
+                        <table class="table">
+                            <thead>
+                                <tr class="bg-dark text-light" style="height:90px; text-align: center;">
+                                    <th class="mb-3 pb-5 justify-content-center align-items-center"
+                                        style="text-align: center;" scope="col ">S.No.</th>
+                                    <th class="mb-3 pb-5" style="text-align: center;" scope="col">Referral Program Name
+                                    </th>
+                                    <th class="mb-3 pb-5" style="text-align: center;" scope="col">Ordered Placed using
+                                        Coupon</th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr style="height: 80px;text-align: center;">
+                                    <th class="pt-5" style="text-align: center;" scope="row">1.</th>
+                                    <td class="pt-5" style="text-align: center;font-weight:550; ">My Referal mobile 1
+                                    </td>
+                                    <td class="pt-5" style="text-align: center;font-weight:550;">67</td>
+
+                                </tr>
+                                <tr style="height: 80px;text-align: center;">
+                                    <th class="pt-5" style="text-align: center;" scope="row">2.</th>
+                                    <td class="pt-5" style="text-align: center;font-weight:550;">My Referal Program 2
+                                    </td>
+                                    <td class="pt-5" style="text-align: center;font-weight:550;">67</td>
+
+                                </tr>
+
+
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="table-responsive my-3" style="box-shadow: 0px 0px 0px #00000029;
+                    border-radius:28px;
+                    opacity: 1;">
+
+                        <table class="table">
+                            <thead>
+                                <tr class="bg-dark text-light" style="height:90px; text-align: center;">
+                                    <th class="mb-3 pb-5 justify-content-center align-items-center"
+                                        style="text-align: center;" scope="col ">S.No.</th>
+                                    <th class="mb-3 pb-5" style="text-align: center;" scope="col">Referral Program Name
+                                    </th>
+                                    <th class="mb-3 pb-5" style="text-align: center;" scope="col">Total Revenue</th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr style="height: 80px;text-align: center;">
+                                    <th class="pt-5" style="text-align: center;" scope="row">1.</th>
+                                    <td class="pt-5" style="text-align: center;font-weight:550; ">My Referal mobile 1
+                                    </td>
+                                    <td class="pt-5" style="text-align: center;font-weight:550;">67</td>
+
+                                </tr>
+                                <tr style="height: 80px;text-align: center;">
+                                    <th class="pt-5" style="text-align: center;" scope="row">2.</th>
+                                    <td class="pt-5" style="text-align: center;font-weight:550;">My Referal Program 2
+                                    </td>
+                                    <td class="pt-5" style="text-align: center;font-weight:550;">67</td>
+
+                                </tr>
+
+
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="table-responsive my-3" style="box-shadow: 0px 3px 20px #00000029;
+                    border-radius:28px;
+                    opacity: 1;">
+
+                        <table class="table">
+                            <thead>
+                                <tr class="bg-dark text-light" style="height:90px; text-align: center;">
+                                    <th class="mb-3 pb-5 justify-content-center align-items-center"
+                                        style="text-align: center;" scope="col ">S.No.</th>
+                                    <th class="mb-3 pb-5" style="text-align: center;" scope="col">Referral Program Name
+                                    </th>
+                                    <th class="mb-3 pb-5" style="text-align: center;" scope="col">Audience Weightage
+                                    </th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr style="height: 80px;text-align: center;">
+                                    <th class="pt-5" style="text-align: center;" scope="row">1.</th>
+                                    <td class="pt-5" style="text-align: center;font-weight:550; ">My Referal mobile 1
+                                    </td>
+                                    <td class="pt-5"><button type="button"
+                                            style="border-radius:12px;border-color:#AEB0E9;border: none; color:white; background-color: #AEB0E9; width:80px;"
+                                            class="btn-sm justify-content-center">50%<i
+                                                style="font-size:12px ;margin-left:10px;margin-right:-17px;"
+                                                class='fas'>&#xf107;</i></button></td>
+
+
+                                </tr>
+                                <tr style="height: 80px;text-align: center;">
+                                    <th class="pt-5" style="text-align: center;" scope="row">2.</th>
+                                    <td class="pt-5" style="text-align: center;font-weight:550;">My Referal Program 2
+                                    </td>
+                                    <td class="pt-5"><button type="button"
+                                            style="border-radius:12px;border-color:#AEB0E9;border: none; color:white; background-color: #AEB0E9; width:80px;"
+                                            class="btn-sm justify-content-center">50%<i
+                                                style="font-size:12px ;margin-left:10px;margin-right:-17px;"
+                                                class='fas'>&#xf107;</i></button></td>
+
+
+                                </tr>
+
+
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="table-responsive  my-3" style="box-shadow: 0px 3px 20px #00000029;
+                    border-radius:28px;
+                    opacity: 1;">
+
+                        <table class="table">
+                            <thead>
+                                <tr class="bg-dark text-light" style="height:90px; text-align: center;">
+                                    <th class="mb-3 pb-5 justify-content-center align-items-center"
+                                        style="text-align: center;" scope="col ">S.No.</th>
+                                    <th class="mb-3 pb-5" style="text-align: center;" scope="col">Referral Program Name
+                                    </th>
+                                    <th class="mb-3 pb-5" style="text-align: center;" scope="col">Preview/Setting</th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr style="height: 80px;text-align: center;">
+                                    <th class="pt-5" style="text-align: center;" scope="row">1.</th>
+                                    <td class="pt-5" style="text-align: center;font-weight:550; ">My Referal mobile 1
+                                    </td>
+                                    <td class="pt-5"><button type="button"
+                                            style="border-radius:12px;border:none;box-shadow: 0px 3px 10px #00000047; width:70px; background-color: #F3BB03; color: white; border-color: #F3BB03;"
+                                            class="btn-sm">Edit</button></td>
+
+                                </tr>
+                                <tr style="height: 80px;text-align: center;">
+                                    <th class="pt-5" style="text-align: center;" scope="row">2.</th>
+                                    <td class="pt-5" style="text-align: center;font-weight:550;">My Referal Program 2
+                                    </td>
+                                    <td class="pt-5"><button type="button"
+                                            style="border-radius:12px;border:none;box-shadow: 0px 3px 10px #00000047; width:70px; background-color: #F3BB03; color: white; border-color: #F3BB03;"
+                                            class="btn-sm">Edit</button></td>
+
+                                </tr>
+
+
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+
+                <div class="container my-5">
+
+                    <div class="d-flex justify-content-center">
+                        <div class="spinner-border" role="status">
+                            <span class="visually-hidden">Loading...</span>
+                        </div>
+                    </div>
+                
+                </div>
+
+
+
+            </div>
+            <div id="analytics" class="tab-pane fade">
+                <div class="container">
+                    <div class="row row-cols-2">
+                        <div class="col">
+                            <img class="img-fluid img-responsive" style="
+                                opacity: 1;" src="./ticket-1.png" alt="" srcset="">
+                        </div>
+                        <div class="col"><img class="img-fluid img-responsive" style="
+                            opacity: 1;" src="./ticket-2.png" alt="" srcset=""></div>
+                        <div class="col"> <img class="img-fluid img-responsive" style="
+                            opacity: 1;" src="./ticket-3.png" alt="" srcset=""></div>
+                        <div class="col"> <img class="img-fluid img-responsive" style="
+                            opacity: 1;" src="./ticket-4.png" alt="" srcset=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+        integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+        integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+
+
+    <script>
+        function onTabClick(evt) {
+            setLineStyle(evt.target)
+        }
+
+        function setLineStyle(tab) {
+            let line = document.querySelector('.tabs2 > .line')
+            line.style.left = tab.offsetLeft + "px";
+            line.style.width = tab.clientWidth + "px";
+        }
+
+        /* bind events on load */
+        window.onload = function () {
+            const tabs = document.querySelectorAll('.tabs2 > .nav > .nav-item')
+            tabs.forEach((tab, index) => {
+                tab.onclick = onTabClick;
+
+                if (index == 0) setLineStyle(tab);
+            })
+        }
+    </script>
+
+
+<script>
+    function setColor(){
+        var count=1;
+        var property = document.getElementById('change');
+        if (count == 0){
+            property.style.backgroundColor = "blue"
+            count=1;        
+        }
+        else{
+            property.style.backgroundColor = "yellow"
+            count=0;
+        }
+    
+    }
+    </script>
+
+
+
+    <script>
+        $('.carousel').carousel();
+    </script>
+
+
+</body>
+
+</html>

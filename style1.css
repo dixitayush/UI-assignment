@@ -1,0 +1,268 @@
+.nav1{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+  }
+.btn1 {
+
+    top: 11px;
+    left: 27px;
+    width: 54px;
+    height: 51px;
+   
+  }
+  
+  /* Darker background on mouse-over */
+ 
+
+.notify-icon{
+  margin-top:18px;
+  margin-right:25px;
+
+}
+.dropdown{
+    margin-left: 69px ;
+    padding-bottom: 6px;
+    margin-top:-22px;
+}
+.dropdown-toggle{
+    text-align: left;
+    font: normal normal normal 17px/23px Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.box1{
+    margin-right:auto;
+    margin-left:auto;
+}
+.box2{
+    margin-left:300px;
+}
+.card-custom{
+    border-radius: 20px;
+    box-shadow: 0px 3px 6px #0000003D;
+    opacity: 1;
+}
+.card-para{
+font: normal normal medium 17px/23px Roboto;
+color: #272727;
+opacity: 1;
+}
+
+.tab-style{
+    font: normal normal medium 27px/35px Roboto;
+    letter-spacing: 0px;
+    color: #722727;
+    opacity: 1;
+}
+.custom-css{
+    border-radius:10px;;
+}
+
+
+h1 {
+    color:green;
+}
+.xyz {
+    background-size: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.btn-circle.btn-sm {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    font-size: 8px;
+    text-align: center;
+}
+.btn-circle.btn-md {
+    width: 50px;
+    height: 50px;
+    padding: 7px 10px;
+    border-radius: 25px;
+    font-size: 10px;
+    text-align: center;
+}
+.btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 12px;
+    text-align: center;
+}
+.btn-custom{
+    margin:auto;
+
+}
+.custom-trophy-text-css{
+    font: normal normal normal bold 18px/27px Roboto;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+.row-buttom{
+font: normal normal medium 18px/24px Roboto;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+.card-hover:hover{
+    background-color: #F3BB03;
+}
+
+.custom-tab:hover{
+    border-bottom: 3px solid yellow;
+}
+
+.responsive-div {
+    position:relative        ;
+    height: 29vh;
+    /*works well for SVG's specifically*/
+}
+@media (max-width:1099px) {
+    h5#Download-text{
+      display: none;
+    }
+  }
+  .slider-image{
+    margin-bottom:20px; margin-top:-120px;
+
+  }
+  .card-css{
+    border-radius: 20px;
+    background: #F2F2F2 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #0000003D;
+    opacity: 1;
+
+  }
+  .img1{
+    height:260px;
+  }
+  .crousel_slide{
+      z-index:1;
+  }
+.carousel{
+      position: relative;
+  }
+
+  .line {
+    position: absolute;
+    bottom: 0;
+    transition: left 0.5s ease-in-out, width 0.5s 0.10s;
+    height: 6px;
+    background-color:#F3BB03;
+    left: 0;
+    width: 69px;
+    pointer-events: none;
+  }
+  .card-css-1{
+    border-radius:23px;
+    background: #F2F2F2 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 15px #0000003D;
+opacity: 1;
+  }
+  .card-css-2{
+     border-radius: 20px;
+    background: #455A64 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #0000003D;
+    opacity: 1;
+  }
+  .card-css-3{
+    border-radius: 20px;
+    background: #739AF0 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #0000003D;
+opacity: 1;
+  }
+
+  .btn-text{
+
+font: normal normal medium 14px/18px Roboto;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+  }
+ 
+
+@media (max-width:629px) {
+    img#img1{
+      margin-top:-20px;
+       display:none;
+    }
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  @media (max-width:1199px) {
+    span#dpd{
+      display: none;
+    }
+  }
+  @media (max-width:699px) {
+    div#dpt{
+      margin-top:-8px;
+    }
+  }
+  #div-desktop {
+    display: none;
+  }
+  
+  @media screen and (min-width:1199px) {
+    #div-mobile {
+      display: none;
+    }
+    #div-desktop {
+      display: block;
+    }
+  }
+ 
+
+  
+
+  .card1{
+    background-color:#514F48;
+      opacity:1; 
+      box-shadow: 0px 3px 20px #00000047;
+      border-radius: 35px;
+      width:20%;
+      
+      box-shadow: 0px 3px 20px #00000047;
+  }
+  .card1:hover{
+    background: #F3BB03 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 20px #00000047;
+border-radius: 35px;
+opacity: 1;
+  }
+
+
+ 
+   tr:nth-child(even) {
+    background-color: #E9E9E9;
+    }
+
+    @media (max-width:699px) {
+      img#notificationbell{
+        display: none;
+      }
+      img#questionicon{
+        display: none;
+      }
+    }
+    .carousel-indicators li {
+      width:10px;
+      height:10px;
+      border-radius:100%;
+      
+    }
+    .vl {
+      border-left: 6px solid green;
+      height:20px;
+    }
