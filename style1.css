@@ -77,22 +77,6 @@ h1 {
     font-size: 8px;
     text-align: center;
 }
-.btn-circle.btn-md {
-    width: 50px;
-    height: 50px;
-    padding: 7px 10px;
-    border-radius: 25px;
-    font-size: 10px;
-    text-align: center;
-}
-.btn-circle.btn-xl {
-    width: 70px;
-    height: 70px;
-    padding: 10px 16px;
-    border-radius: 35px;
-    font-size: 12px;
-    text-align: center;
-}
 .btn-custom{
     margin:auto;
 
@@ -164,6 +148,8 @@ opacity: 1;
     background: #F2F2F2 0% 0% no-repeat padding-box;
 box-shadow: 0px 3px 15px #0000003D;
 opacity: 1;
+position: relative;
+height:27vh;
   }
   .card-css-2{
      border-radius: 20px;
@@ -265,4 +251,25 @@ opacity: 1;
     .vl {
       border-left: 6px solid green;
       height:20px;
+    }
+
+
+    .slider-tabs.nav {
+      position: relative;
+      margin: 10px;
+    }
+    
+    .slider-tabs.nav .nav-link.active {
+      background: transparent !important;
+      
+    }
+    
+    .slider-tabs.nav .indicator {
+      position: absolute;
+      top: 100%;
+      min-width: 0;
+      width: 0;
+      height: 5px;
+      background:#F3BB03;
+      transition: left .3s, width .3s;
     }
