@@ -283,3 +283,14 @@ opacity: 1;
         margin:0px;
       
       }
+
+    
+
+      .carousel-indicators button.active{
+        background-color:#FFC727;
+      }
+      
+
+      
+              
+     
