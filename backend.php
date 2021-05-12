@@ -12,5 +12,9 @@ if ($conn->connect_error) {
 
 $sql = "SELECT * FROM `customer`";
 $result = mysqli_query($conn, $sql);
+$result2 = mysqli_query($conn, $sql);
+$result3 = mysqli_query($conn, $sql);
+$result4 = mysqli_query($conn, $sql);
+
 
 ?>

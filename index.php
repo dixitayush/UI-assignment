@@ -1,4 +1,4 @@
-<?php 
+<?php
 include 'backend.php';
 ?>
 
@@ -9,8 +9,7 @@ include 'backend.php';
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style1.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?arrow_forward_ios">
@@ -53,75 +52,140 @@ include 'backend.php';
         </div>
     </nav>
     <div>
-    <div class="container d-flex justify-content-end mt-4">
-        <div class="row d-flex justify-content-end">
-            <div class="card1" style="height:50px;
+        <div class="container d-flex justify-content-end mt-4">
+            <div class="row d-flex justify-content-end">
+                <div class="card1" style="height:50px;
             width:250px;">
-                <div class=" card-body d-flex justify-content-center align-items-center">
-                    <button type="button" style="background-color: #F1F1F1;border:none; border-color: white;
+                    <div class=" card-body d-flex justify-content-center align-items-center">
+                        <button type="button" style="background-color: #F1F1F1;border:none; border-color: white;
                 box-shadow: 0px 3px 6px #00000029 ;margin-top:-3px;
                  
-                opacity: 1;" class=" btn-circle btn-sm d-flex justify-content-center align-items-center"><i style="font-size:14px;color: #514F48; font-weight:600; "
-                            class='fas fa-plus'></i></button>
-                    <span>
-                        <h5 style="font: normal normal medium 15px/20px Roboto;
+                opacity: 1;" class=" btn-circle btn-sm d-flex justify-content-center align-items-center"><i style="font-size:14px;color: #514F48; font-weight:600; " class='fas fa-plus'></i></button>
+                        <span>
+                            <h5 style="font: normal normal medium 15px/20px Roboto;
         letter-spacing: 0px;
         color: #FFFFFF;
         margin: auto;
         font-size:12px;
         
         opacity: 1; margin-left: 6px;">Create New Referral Program</h5>
-                    </span>
-        
+                        </span>
+
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
- 
-      <div class="container">
+
+    <div class="container my-4">
         <div id="carouselExampleLight" class="carousel carousel-warning slide" data-bs-ride="carousel">
             <div class="carousel-indicators pb-2">
-              <button style="width:1.2vh;
+                <button style="width:1.2vh;
               height:1.2vh;
               border-radius:100%;" type="button" data-bs-target="#carouselExampleLight" data-bs-slide-to="0" class="active mx-1" aria-current="true" aria-label="Slide 1"></button>
-              <button style="width:1.2vh;
+                <button style="width:1.2vh;
               height:1.2vh;
               border-radius:100%;" type="button" data-bs-target="#carouselExampleLight" data-bs-slide-to="1" class="mx-1" aria-label="Slide 2"></button>
-              <button style="width:1.2vh;
+                <button style="width:1.2vh;
               height:1.2vh;
               border-radius:100%;" type="button" data-bs-target="#carouselExampleLight" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="4000">
-                
-    
-                          
-                            <img class="img-fluid img-responsive"  src="./protip1.png" alt="" srcset="">
-                        
-                    </div>
-              
-              <div class="carousel-item" data-bs-interval="4000">
-            
-                <img class="img-fluid img-responsive"  src="./protip2.png" alt="" srcset="">
-               
-              </div>
-            <div class="carousel-item">
-               
-                <img class="img-fluid img-responsive"  src="./protip3.png" alt="" srcset="">
+                <div class="carousel-item active" data-bs-interval="4000">
 
-              </div>
+                    <div class="box d-flex justify-content-center align-items-center" style="margin-top:70px; margin-bottom:40px;z-index:initial;">
+                        <div class="row" id="slide1" style=" z-index:-1;background: #F2F2F2 0% 0% no-repeat padding-box;
+                    box-shadow: 0px 3px 15px #0000003D;
+                    border-radius:23px;opacity: 1;height:11vw; width:80%">
+                            <div class="col-4 d-flex justify-content-center">
+                                <img class="img-fluid" style="margin-left:5%;position:relative; bottom:50%;" src="./protip1.png" alt="" srcset="">
+                            </div>
+                            <div class="col-8 d-flex justify-content-start align-items-center">
+                                <div class="row" id="row-text" style="position:relative;bottom:20%;">
+                                    <h3 style="font-size:1.6vw;font-weight:bold;font-family:Roboto; margin:auto;
+                                 letter-spacing: 0px;
+                                color: #272727; 
+                                   opacity: 1;">Pro tip 1#</h3>
+                                    <p style="font-size:0.9vw;
+                                    letter-spacing: 0px;
+                                      color: #272727;
+                                      font-family:Roboto;
+                                      margin-top:2%;
+                                     opacity: 1;">A/B Test Your Referral Program. Start Creating new Referral Program to find out which referral program strategy brings most of the revenue to your Business.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="carousel-item" data-bs-interval="4000">
+
+                    
+                <div class="box d-flex justify-content-center align-items-center" style="margin-top:70px; margin-bottom:40px;z-index:initial;">
+                        <div class="row" id="slide2" style=" z-index:-1;background: #455A64 0% 0% no-repeat padding-box;
+                    box-shadow: 0px 3px 15px #0000003D;
+                    border-radius:23px;opacity: 1;height:11vw; width:80%">
+                            <div class="col-4 d-flex justify-content-center">
+                                <img class="img-fluid" style="margin-left:5%;position:relative; bottom:50%;" src="./protip2.png" alt="" srcset="">
+                            </div>
+                            <div class="col-8 d-flex justify-content-start align-items-center">
+                                <div class="row" id="row-text" style="position:relative;bottom:20%;">
+                                    <h3 style="font-size:1.5vw;font-weight:bold;font-family:Roboto; margin:auto;
+                                 letter-spacing: 0px;
+                                 color:white;
+                                   opacity: 1;">Pro tip 2#</h3>
+                                    <p style="font-size:0.9vw;font-family:Roboto;
+                                    letter-spacing: 0px;
+                                    color:white;
+                                    margin-top:2%;
+                                
+                                     opacity: 1;">A/B Test Your Referral Program. Start Creating new Referral Program to find out which referral program strategy brings most of the revenue to your Business.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="carousel-item">
+                 
+                <div class="box d-flex justify-content-center align-items-center" style="margin-top:70px; margin-bottom:40px;z-index:initial;">
+                        <div class="row" id="slide3" style=" z-index:-1;background: #739AF0 0% 0% no-repeat padding-box;
+                    box-shadow: 0px 3px 15px #0000003D;
+                    border-radius:23px;opacity: 1;height:11vw; width:80%">
+                            <div class="col-4 d-flex justify-content-center">
+                                <img class="img-fluid" style="margin-left:5%;position:relative; bottom:50%;" src="./protip3.png" alt="" srcset="">
+                            </div>
+                            <div class="col-8 d-flex justify-content-start align-items-center">
+                                <div class="row" id="row-text" style="position:relative;bottom:20%;">
+                                    <h3 style="font-size:1.5vw;font-weight:bold;font-family:Roboto; margin:auto;
+                                 letter-spacing: 0px;
+                                 color:white;
+                                   opacity: 1;">Pro tip 3#</h3>
+                                    <p style="font-size:0.9vw;
+                                    letter-spacing: 0px;
+                                    color:white;
+                                    margin-top:2%;
+                                    font-family:Roboto;
+                                
+                                     opacity: 1;">A/B Test Your Referral Program. Start Creating new Referral Program to find out which referral program strategy brings most of the revenue to your Business.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+
+                </div>
             </div>
             <button style="color: rgb(255, 255, 66);;" class="carousel-control-prev" type="button" data-bs-target="#carouselExampleLight" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
             </button>
             <button style="color:rgb(255, 255, 66);;" class="carousel-control-next" type="button" data-bs-target="#carouselExampleLight" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
             </button>
-          </div>
-      </div>
+        </div>
+    </div>
 
     <div class="container" style="margin-top:50px;">
         <nav class="nav nav-pills slider-tabs">
@@ -129,48 +193,47 @@ include 'backend.php';
             letter-spacing: 0px;
             color: #707070;
             border-right: 3px solid #e4e2e2;
-            opacity: 1;" class="text-sm-center nav-link active"  data-toggle="tab" href="#Overview">Overview</a>
+            opacity: 1;" class="text-sm-center nav-link active" data-toggle="tab" href="#Overview">Overview</a>
             <a style="font: normal normal medium 27px/37px Roboto; font-weight: bolder; font-size:18px; background-color: #FFFFFF;
             letter-spacing: 0px;
             color: #707070;
             opacity: 1; " class="text-sm-center nav-link" data-toggle="tab" href="#analytics">Analytics</a>
             <div class="indicator"></div>
             <div class="hline"></div>
-            
-          </nav>
-         
+
+        </nav>
+
 
     </div>
 
 
-        <div class="tab-content">
-            <div id="Overview" class="tab-pane fade in active">
-                <div class="container my-3">
-                    <div class="row">
-                        <div class="col-6 col-sm-6 col-md-6 col-lg-3 my-3">
-                            <div class="card" style="box-shadow: 0px 3px 6px #0000002B;
+    <div class="tab-content">
+        <div id="Overview" class="tab-pane fade in active">
+            <div class="container my-3">
+                <div class="row">
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-3 my-3">
+                        <div class="card" style="box-shadow: 0px 3px 6px #0000002B;
                                 border-radius: 23px; background-color: #8DD8A8;width:100%;">
-                                <div class="card-body">
-                                    <div class="container-sm my-3">
-                                        <h4 class="card-title" style="font: normal normal medium 21px/30px Roboto;
+                            <div class="card-body">
+                                <div class="container-sm my-3">
+                                    <h4 class="card-title" style="font: normal normal medium 21px/30px Roboto;
                                         letter-spacing: 0px;
                                         font-size:1.4vw;
                                         
                                         clear: both;
                                         color: #FFFFFF;
                                         opacity: 1;">Referal Rate</h4>
-                                        <p style="font: normal normal normal 14px/20px Roboto;
+                                    <p style="font: normal normal normal 14px/20px Roboto;
                                         letter-spacing: 0px;
                                         font-size:0.9vw;
                                         color: #FFFFFF;
                                         opacity: 1;">In Last 7 days</p>
-                                    </div>
-                                    <div class="container-sm">
-                                        <img class="img-fluid img-responsive" style=" width:100%;"
-                                            src="./card-1-image.png" alt="" srcset="">
-                                    </div>
-                                    <div class="row d-flex justify-content-end mx-4 my-2">
-                                        <button class="btn-sm " style="
+                                </div>
+                                <div class="container-sm">
+                                    <img class="img-fluid img-responsive" style=" width:100%;" src="./card-1-image.png" alt="" srcset="">
+                                </div>
+                                <div class="row d-flex justify-content-end mx-4 my-2">
+                                    <button class="btn-sm " style="
                                             background-color:white;
                                             border: none;
                                             width:10vh;
@@ -185,36 +248,34 @@ include 'backend.php';
                                             color:black;
                                             cursor: pointer;
                                           ">View <i class="fa fa-chevron-right"></i></button>
-                                    </div>
-
                                 </div>
+
                             </div>
                         </div>
+                    </div>
 
-                        <div class="col-6 col-sm-6 col-md-6  col-lg-3 my-3">
-                            <div class="card"
-                                style="border-radius:23px; box-shadow: 0px 3px 6px #0000002B; background-color: #F6BCCA; width:100%;">
-                                <div class="card-body">
-                                    <div class="container-sm my-3">
-                                        <h4 class="card-title" style="font: normal normal medium 21px/30px Roboto;
+                    <div class="col-6 col-sm-6 col-md-6  col-lg-3 my-3">
+                        <div class="card" style="border-radius:23px; box-shadow: 0px 3px 6px #0000002B; background-color: #F6BCCA; width:100%;">
+                            <div class="card-body">
+                                <div class="container-sm my-3">
+                                    <h4 class="card-title" style="font: normal normal medium 21px/30px Roboto;
                                         letter-spacing: 0px;
                                         color: #FFFFFF;
                                         font-size:1.4vw;
                                         
                                         clear: both;
                                         opacity: 1;">Revenue Rate</h4>
-                                        <p style="font: normal normal normal 14px/20px Roboto;
+                                    <p style="font: normal normal normal 14px/20px Roboto;
                                         letter-spacing: 0px;
                                         font-size:0.9vw;
                                         color: #FFFFFF;
                                         opacity: 1;">In Last 7 days</p>
-                                    </div>
-                                    <div class="container-sm">
-                                        <img class="img-fluid img-responsive" style="width:100%;"
-                                            src="./card-2-image.png" alt="" srcset="">
-                                    </div>
-                                    <div class="row d-flex justify-content-end mx-4 my-2">
-                                        <button class="btn-sm" style="
+                                </div>
+                                <div class="container-sm">
+                                    <img class="img-fluid img-responsive" style="width:100%;" src="./card-2-image.png" alt="" srcset="">
+                                </div>
+                                <div class="row d-flex justify-content-end mx-4 my-2">
+                                    <button class="btn-sm" style="
                                             background-color:white;
                                             border: none;
                                             width:10vh;
@@ -228,35 +289,34 @@ include 'backend.php';
                                             color:black;
                                             cursor: pointer;
                                           ">View <i class="fa fa-chevron-right"></i></button>
-                                    </div>
-
                                 </div>
+
                             </div>
                         </div>
-                        <div class="col-6 col-sm-6 col-md-6 col-lg-3 my-3">
-                            <div class="card" style="box-shadow: 0px 3px 6px #0000002B;
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-3 my-3">
+                        <div class="card" style="box-shadow: 0px 3px 6px #0000002B;
                                 border-radius: 23px; background-color: #AEB0E9; width:100%; ">
-                                <div class="card-body">
-                                    <div class="container-sm my-3">
-                                        <h4 class="card-title" style="font: normal normal medium 21px/30px Roboto;
+                            <div class="card-body">
+                                <div class="container-sm my-3">
+                                    <h4 class="card-title" style="font: normal normal medium 21px/30px Roboto;
                                         letter-spacing: 0px;
                                         color: #FFFFFF;
                                         font-size: 1.3vw;
 
                                         clear:both;
                                         opacity: 1;">Conversation</h4>
-                                        <p style="font: normal normal normal 14px/20px Roboto;
+                                    <p style="font: normal normal normal 14px/20px Roboto;
                                         letter-spacing: 0px;
                                         color: #FFFFFF;
                                         font-size:0.9vw;
                                         opacity: 1;">In Last 7 days</p>
-                                    </div>
-                                    <div class="container-sm">
-                                        <img class="img-fluid img-responsive" style="width:100%;"
-                                            src="./card-3-image.png" alt="" srcset="">
-                                    </div>
-                                    <div class="row d-flex justify-content-end mx-4 my-2">
-                                        <button class="btn-sm" style="
+                                </div>
+                                <div class="container-sm">
+                                    <img class="img-fluid img-responsive" style="width:100%;" src="./card-3-image.png" alt="" srcset="">
+                                </div>
+                                <div class="row d-flex justify-content-end mx-4 my-2">
+                                    <button class="btn-sm" style="
                                             background-color:white;
                                             border: none;
                                             width:10vh;
@@ -270,42 +330,39 @@ include 'backend.php';
                                             color:black;
                                             cursor: pointer;
                                           ">View <i class="fa fa-chevron-right"></i></button>
-                                    </div>
-
                                 </div>
+
                             </div>
                         </div>
+                    </div>
 
-                        <div
-                            class="col-6 col-sm-6 col-md-6 col-lg-3 my-3 d-flex justify-content-start align-items-center">
-                            <div class="row-cols-md-1">
-                                <button type="button" style="background-color: #F1F1F1;
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-3 my-3 d-flex justify-content-start align-items-center">
+                        <div class="row-cols-md-1">
+                            <button type="button" style="background-color: #F1F1F1;
                                 border-color:#F1F1F1; margin-left:23px;
                             box-shadow: 0px 3px 6px #00000029;
                             border:none;
-                            opacity: 1;" class="btn-circle btn-sm d-flex justify-content-center align-items-center"><i
-                                        style="font-size:17px; color: #707070;" class='fas fa-angle-right'></i></button>
-                                <div class="conatiner-sm">
-                                    <h5 style="font: normal normal bold 12px/17px Roboto;
+                            opacity: 1;" class="btn-circle btn-sm d-flex justify-content-center align-items-center"><i style="font-size:17px; color: #707070;" class='fas fa-angle-right'></i></button>
+                            <div class="conatiner-sm">
+                                <h5 style="font: normal normal bold 12px/17px Roboto;
                                 letter-spacing: 0px;
                                 color: #3181F8;
                                 opacity: 1;">view Analytics</h5>
-                                </div>
                             </div>
                         </div>
-
                     </div>
-                </div>
 
-                <div class="container my-4">
-                    <div class="row container-sm my-4">
-                
-                        <div class="col-9 col-sm-9 col-md-9 col-lg-9 d-flex justify-content-start align-items-center">
-                            <ul class="nav" style="position: relative;">
-                                 <li class="nav-item d-flex align-items-center"> <img style="height:3vw; margin-right:10px; display: inline;" class="img-fluid img-responsive nav-item"
-                                    src="./2-row-trophy.png" alt="" srcset=""></li>
-                                <li class="nav-item">
-                                    <h5 style="
+                </div>
+            </div>
+
+            <div class="container my-4">
+                <div class="row container-sm my-4">
+
+                    <div class="col-9 col-sm-9 col-md-9 col-lg-9 d-flex justify-content-start align-items-center">
+                        <ul class="nav" style="position: relative;">
+                            <li class="nav-item d-flex align-items-center"> <img style="height:3vw; margin-right:10px; display: inline;" class="img-fluid img-responsive nav-item" src="./2-row-trophy.png" alt="" srcset=""></li>
+                            <li class="nav-item">
+                                <h5 style="
                             font: normal normal bold 19px Roboto;
                             letter-spacing: 0px;
                             font-size:2vw;
@@ -313,70 +370,64 @@ include 'backend.php';
                             color: #707070;
                             margin-right:10px;
                             opacity: 1;" class="custom-trophy-text-css">All Referral Programs</h5>
-                                </li>
+                            </li>
 
-                                <li class="nav-item d-flex align-items-center"><button class="d-flex justify-content-start align-items-center display" type="button"><img
-                                    class="img-fluid img-responsive" style="height:1.7vw;margin:10%;"
-                                    src="./row-card-image.png" alt="" srcset="">Show in Analytics</button></li>
-                            </ul>
-                        </div>
+                            <li class="nav-item d-flex align-items-center"><button class="d-flex justify-content-start align-items-center display" type="button"><img class="img-fluid img-responsive" style="height:1.7vw;margin:10%;" src="./row-card-image.png" alt="" srcset="">Show in Analytics</button></li>
+                        </ul>
+                    </div>
 
 
-                        <div class="col-3 col-sm-3 col-lg-3 d-flex  justify-content-startS align-items-center">
+                    <div class="col-3 col-sm-3 col-lg-3 d-flex  justify-content-startS align-items-center">
 
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
-                                class="bi bi-download" viewBox="0 0 16 16" style="margin-left:25px;color: #707070; height:4vh;">
-                                <path
-                                    d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z" />
-                                <path
-                                    d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z" />
-                            </svg>
-                            <h5 id="Download-text" style="font: normal normal normal 19px/25px Roboto;
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16" style="margin-left:25px;color: #707070; height:4vh;">
+                            <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z" />
+                            <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z" />
+                        </svg>
+                        <h5 id="Download-text" style="font: normal normal normal 19px/25px Roboto;
                             letter-spacing: 0px;
                             color: #707070;
                             opacity: 1;
                             clear: both;
                               margin-left:8px;
                               opacity: 1;"> Download PDF/CSV</h5>
-                        </div>
-
                     </div>
-                </div>
 
-                <div class="container my-3" id="div-desktop">
-                    <div class="table-responsive" style="box-shadow: 0px 0px 20px #00000029;
+                </div>
+            </div>
+
+            <div class="container my-3" id="div-desktop">
+                <div class="table-responsive" style="box-shadow: 0px 0px 20px #00000029;
                     border-radius:28px;
                     opacity: 1;">
 
-                        <table class="table">
-                            <thead>
-                                <tr class="bg-dark text-light" style="height:90px; text-align: center;">
-                                    <th class="mb-3 pb-5 justify-content-center align-items-center"
-                                        style="text-align: center;" scope="col ">S.No.</th>
-                                    <th class="mb-3 pb-5" style="text-align: center;" scope="col">Referral Program Name
-                                    </th>
-                                    <th class="mb-3 pb-5" style="text-align: center;" scope="col">Customers</th>
-                                    <th class="mb-3 pb-5" style="text-align: center;" scope="col">Orders Placed using
-                                        Coupon
-                                    </th>
-                                    <th class="mb-3 pb-5" style="text-align: center;" scope="col">Total Revenue</th>
-                                    <th class="mb-3 pb-5" style="text-align: center;" scope="col">Audience Weightage
-                                    </th>
-                                    <th class="mb-3 pb-5" style="text-align: center;" scope="col">Preview/Settings</th>
-                                </tr>
-                            </thead>
-                            <tbody>
+                    <table class="table">
+                        <thead>
+                            <tr class="bg-dark text-light" style="height:90px; text-align: center;">
+                                <th class="mb-3 pb-5 justify-content-center align-items-center" style="text-align: center;" scope="col ">S.No.</th>
+                                <th class="mb-3 pb-5" style="text-align: center;" scope="col">Referral Program Name
+                                </th>
+                                <th class="mb-3 pb-5" style="text-align: center;" scope="col">Customers</th>
+                                <th class="mb-3 pb-5" style="text-align: center;" scope="col">Orders Placed using
+                                    Coupon
+                                </th>
+                                <th class="mb-3 pb-5" style="text-align: center;" scope="col">Total Revenue</th>
+                                <th class="mb-3 pb-5" style="text-align: center;" scope="col">Audience Weightage
+                                </th>
+                                <th class="mb-3 pb-5" style="text-align: center;" scope="col">Preview/Settings</th>
+                            </tr>
+                        </thead>
+                        <tbody>
 
                             <?php
-                            
-                             while($row = mysqli_fetch_assoc($result)){
-                           
-                               echo"<tr style='height: 80px;text-align: center;'>
-                               <th class='pt-5' style='text-align: center;' scope='row'>". $row['Sn'] . "</th>
-                               <td class='pt-5' style='text-align: center;font-weight:550; '>". $row['Refferal_Programme_name'] . "</td>
-                               <td class='pt-5' style='text-align: center;font-weight:550;'>". $row['Customers_no'] . "</td>
-                               <td class='pt-5' style='text-align: center;font-weight:550;'>". $row['Order_placed'] . "</td>
-                               <td class='pt-5' style='text-align: center;font-weight:550;'>".'$'. $row['Total_revenue'] . "</td>
+
+                            while ($row = mysqli_fetch_assoc($result)) {
+
+                                echo "<tr style='height: 80px;text-align: center;'>
+                               <th class='pt-5' style='text-align: center;' scope='row'>" . $row['Sn'] . "</th>
+                               <td class='pt-5' style='text-align: center;font-weight:550; '>" . $row['Refferal_Programme_name'] . "</td>
+                               <td class='pt-5' style='text-align: center;font-weight:550;'>" . $row['Customers_no'] . "</td>
+                               <td class='pt-5' style='text-align: center;font-weight:550;'>" . $row['Order_placed'] . "</td>
+                               <td class='pt-5' style='text-align: center;font-weight:550;'>" . '$' . $row['Total_revenue'] . "</td>
                                <td class='pt-5'><button type='button'
                                        style='border-radius:12px;border-color:#AEB0E9;border: none; color:white; background-color: #AEB0E9; width:80px;'
                                        class='btn-sm justify-content-center'>50%<i
@@ -386,287 +437,258 @@ include 'backend.php';
                                        style='border-radius:12px;border: none;box-shadow: 0px 3px 10px #00000047; width:70px; background-color: #F3BB03; color: white; border-color: #F3BB03;'
                                        class='btn-sm'>Edit</button></td>
                            </tr>";
+                            }
 
+                            ?>
 
-                        
-                             }  
-
-                             ?>
-
-                            </tbody>
-                        </table>
-                    </div>
+                        </tbody>
+                    </table>
                 </div>
-                <div class="container my-3" id="div-mobile">
-                    <div class="table-responsive my-3" style="box-shadow: 0px 3px 20px #00000029;
+            </div>
+            <div class="container my-3" id="div-mobile">
+                <div class="table-responsive my-3" style="box-shadow: 0px 3px 20px #00000029;
                     border-radius:28px;
                     opacity: 1;">
 
-                        <table class="table">
-                            <thead>
-                                <tr class="bg-dark text-light" style="height:90px; text-align: center;">
-                                    <th class="mb-3 pb-5 justify-content-center align-items-center"
-                                        style="text-align: center;" scope="col ">S.No.</th>
-                                    <th class="mb-3 pb-5" style="text-align: center;" scope="col">Referral Program Name
-                                    </th>
-                                    <th class="mb-3 pb-5" style="text-align: center; border-bottom:4px solid #F3BB03;" scope="col"><span>Customers</span><div class="indicator"></div> </th>
-                                   
+                    <table class="table">
+                        <thead>
+                            <tr class="bg-dark text-light" style="height:90px; text-align: center;">
+                                <th class="mb-3 pb-5 justify-content-center align-items-center" style="text-align: center;" scope="col ">S.No.</th>
+                                <th class="mb-3 pb-5" style="text-align: center;" scope="col">Referral Program Name
+                                </th>
+                                <th class="mb-3 pb-5" style="text-align: center; border-bottom:4px solid #F3BB03;" scope="col"><span>Customers</span>
+                                    <div class="indicator"></div>
+                                </th>
 
-                                </tr>
-                            </thead>
-                            <tbody>
+
+                            </tr>
+                        </thead>
+                        <tbody>
                             <?php
-                              
-                               while($row = mysqli_fetch_assoc($result)){
-                            
-                              echo" <tr style='height: 80px;text-align: center;'>
-                              <th class='pt-5' style='text-align: center;' scope='row'>". $row['Sn'] . "</th>
-                              <td class='pt-5' style='text-align: center;font-weight:550; '>". $row['Refferal_Programme_name'] . "</td>
-                              <td class='pt-5' style='text-align: center;font-weight:550;'>". $row['Customers_no'] . "</td>
-                          </tr>";
-                          
-                               }
-                               ?>
-                            
 
-                            </tbody>
-                        </table>
-                    </div>
+                            while ($row = mysqli_fetch_assoc($result2)) {
 
-                    <div class="table-responsive my-3" style="box-shadow: 0px 3px 20px #00000029;
-                    border-radius:28px;
-                    opacity: 1;">
+                                echo "<tr style='height: 80px;text-align: center;'>
+                                <th class='pt-5' style='text-align: center;' scope='row'>" . $row['Sn'] . "</th>
+                                <td class='pt-5' style='text-align: center;font-weight:550; '>" . $row['Refferal_Programme_name'] . "</td>
+                                <td class='pt-5' style='text-align: center;font-weight:550;'>" . $row['Customers_no'] . "</td>
+                                </tr> ";
+                            }
 
-                        <table class="table">
-                            <thead>
-                                <tr class="bg-dark text-light" style="height:90px; text-align: center;">
-                                    <th class="mb-3 pb-5 justify-content-center align-items-center"
-                                        style="text-align: center;" scope="col ">S.No.</th>
-                                    <th class="mb-3 pb-5" style="text-align: center;" scope="col">Referral Program Name
-                                    </th>
-                                    <th class="mb-3 pb-5" style="text-align: center;border-bottom:4px solid #F3BB03;" scope="col">Ordered Placed using
-                                        Coupon</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                             
-                               <?php
-                              
-                               while($row = mysqli_fetch_assoc($result)){
-                            
-                              echo" <tr style='height: 80px;text-align: center;'>
-                              <th class='pt-5' style='text-align: center;' scope='row'>". $row['Sn'] . "</th>
-                              <td class='pt-5' style='text-align: center;font-weight:550; '>". $row['Refferal_Programme_name'] . "</td>
-                              <td class='pt-5' style='text-align: center;font-weight:550;'>". $row['Order_placed'] . "</td>
-                          </tr>";
+                            ?>
 
-                               }
 
-                               ?>
-                            
-                            </tbody>
-                        </table>
-                    </div>
-                    <div class="table-responsive my-3" style="box-shadow: 0px 0px 0px #00000029;
-                    border-radius:28px;
-                    opacity: 1;">
-                        <table class="table">
-                            <thead>
-                                <tr class="bg-dark text-light" style="height:90px; text-align: center;">
-                                    <th class="mb-3 pb-5 justify-content-center align-items-center"
-                                        style="text-align: center;" scope="col ">S.No.</th>
-                                    <th class="mb-3 pb-5" style="text-align: center;" scope="col">Referral Program Name
-                                    </th>
-                                    <th class="mb-3 pb-5" style="text-align: center;border-bottom:4px solid #F3BB03;" scope="col">Total Revenue</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                              <?php
-                              
-                               while($row = mysqli_fetch_assoc($result)){
-                            
-                              echo" <tr style='height: 80px;text-align: center;'>
-                              <th class='pt-5' style='text-align: center;' scope='row'>". $row['Sn'] . "</th>
-                              <td class='pt-5' style='text-align: center;font-weight:550; '>". $row['Refferal_Programme_name'] . "</td>
-                              <td class='pt-5' style='text-align: center;font-weight:550;'>".'$'. $row['Total_revenue'] . "</td>
-                          </tr>";
-
-                               }
-
-                               ?>
-                          
-                            </tbody>
-                        </table>
-                    </div>
-                    <div class="table-responsive my-3" style="box-shadow: 0px 3px 20px #00000029;
-                    border-radius:28px;
-                    opacity: 1;">
-
-                        <table class="table">
-                            <thead>
-                                <tr class="bg-dark text-light" style="height:90px; text-align: center;">
-                                    <th class="mb-3 pb-5 justify-content-center align-items-center"
-                                        style="text-align: center;" scope="col ">S.No.</th>
-                                    <th class="mb-3 pb-5" style="text-align: center;" scope="col">Referral Program Name
-                                    </th>
-                                    <th class="mb-3 pb-5" style="text-align: center;border-bottom:4px solid #F3BB03;" scope="col">Audience Weightage
-                                    </th>
-
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr style="height: 80px;text-align: center;">
-                                    <th class="pt-5" style="text-align: center;" scope="row">1.</th>
-                                    <td class="pt-5" style="text-align: center;font-weight:550; ">My Referal mobile 1
-                                    </td>
-                                    <td class="pt-5"><button type="button"
-                                            style="border-radius:12px;border-color:#AEB0E9;border: none; color:white; background-color: #AEB0E9; width:80px;"
-                                            class="btn-sm justify-content-center">50%<i
-                                                style="font-size:12px ;margin-left:10px;margin-right:-17px;"
-                                                class='fas'>&#xf107;</i></button></td>
-                                </tr>
-                                <tr style="height: 80px;text-align: center;">
-                                    <th class="pt-5" style="text-align: center;" scope="row">2.</th>
-                                    <td class="pt-5" style="text-align: center;font-weight:550;">My Referal Program 2
-                                    </td>
-                                    <td class="pt-5"><button type="button"
-                                            style="border-radius:12px;border-color:#AEB0E9;border: none; color:white; background-color: #AEB0E9; width:80px;"
-                                            class="btn-sm justify-content-center">50%<i
-                                                style="font-size:12px ;margin-left:10px;margin-right:-17px;"
-                                                class='fas'>&#xf107;</i></button></td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <div class="table-responsive  my-3" style="box-shadow: 0px 3px 20px #00000029;
-                    border-radius:28px;
-                    opacity: 1;">
-                        <table class="table">
-                            <thead>
-                                <tr class="bg-dark text-light" style="height:90px; text-align: center;">
-                                    <th class="mb-3 pb-5 justify-content-center align-items-center"
-                                        style="text-align: center;" scope="col ">S.No.</th>
-                                    <th class="mb-3 pb-5" style="text-align: center;" scope="col">Referral Program Name
-                                    </th>
-                                    <th class="mb-3 pb-5" style="text-align: center;border-bottom:4px solid #F3BB03;border-left:10%; border-right:10%; " scope="col">Preview/Setting</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr style="height: 80px;text-align: center;">
-                                    <th class="pt-5" style="text-align: center;" scope="row">1.</th>
-                                    <td class="pt-5" style="text-align: center;font-weight:550; ">My Referal mobile 1
-                                    </td>
-                                    <td class="pt-5"><button type="button"
-                                            style="border-radius:12px;border:none;box-shadow: 0px 3px 10px #00000047; width:70px; background-color: #F3BB03; color: white; border-color: #F3BB03;"
-                                            class="btn-sm">Edit</button></td>
-                                </tr>
-                                <tr style="height: 80px;text-align: center;">
-                                    <th class="pt-5" style="text-align: center;" scope="row">2.</th>
-                                    <td class="pt-5" style="text-align: center;font-weight:550;">My Referal Program 2
-                                    </td>
-                                    <td class="pt-5"><button type="button"
-                                            style="border-radius:12px;border:none;box-shadow: 0px 3px 10px #00000047; width:70px; background-color: #F3BB03; color: white; border-color: #F3BB03;"
-                                            class="btn-sm">Edit</button></td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
+                        </tbody>
+                    </table>
                 </div>
-                <div class="container my-5">
-                    <div class="d-flex justify-content-center">
-                        <div class="spinner-border" role="status">
-                            <span class="visually-hidden">Loading...</span>
-                        </div>
-                    </div>              
+
+                <div class="table-responsive my-3" style="box-shadow: 0px 3px 20px #00000029;
+                    border-radius:28px;
+                    opacity: 1;">
+
+                    <table class="table">
+                        <thead>
+                            <tr class="bg-dark text-light" style="height:90px; text-align: center;">
+                                <th class="mb-3 pb-5 justify-content-center align-items-center" style="text-align: center;" scope="col ">S.No.</th>
+                                <th class="mb-3 pb-5" style="text-align: center;" scope="col">Referral Program Name
+                                </th>
+                                <th class="mb-3 pb-5" style="text-align: center;border-bottom:4px solid #F3BB03;" scope="col">Ordered Placed using
+                                    Coupon</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <?php
+
+                            while ($row = mysqli_fetch_assoc($result3)) {
+
+                                echo " <tr style='height: 80px;text-align: center;'>
+                              <th class='pt-5' style='text-align: center;' scope='row'>" . $row['Sn'] . "</th>
+                              <td class='pt-5' style='text-align: center;font-weight:550; '>" . $row['Refferal_Programme_name'] . "</td>
+                              <td class='pt-5' style='text-align: center;font-weight:550;'>" . $row['Order_placed'] . "</td>
+                          </tr>";
+                            }
+
+                            ?>
+
+                        </tbody>
+                    </table>
+                </div>
+                <div class="table-responsive my-3" style="box-shadow: 0px 0px 0px #00000029;
+                    border-radius:28px;
+                    opacity: 1;">
+                    <table class="table">
+                        <thead>
+                            <tr class="bg-dark text-light" style="height:90px; text-align: center;">
+                                <th class="mb-3 pb-5 justify-content-center align-items-center" style="text-align: center;" scope="col ">S.No.</th>
+                                <th class="mb-3 pb-5" style="text-align: center;" scope="col">Referral Program Name
+                                </th>
+                                <th class="mb-3 pb-5" style="text-align: center;border-bottom:4px solid #F3BB03;" scope="col">Total Revenue</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <?php
+
+                            while ($row = mysqli_fetch_assoc($result4)) {
+
+                                echo " <tr style='height: 80px;text-align: center;'>
+                              <th class='pt-5' style='text-align: center;' scope='row'>" . $row['Sn'] . "</th>
+                              <td class='pt-5' style='text-align: center;font-weight:550; '>" . $row['Refferal_Programme_name'] . "</td>
+                              <td class='pt-5' style='text-align: center;font-weight:550;'>" . '$' . $row['Total_revenue'] . "</td>
+                          </tr>";
+                            }
+
+                            ?>
+
+                        </tbody>
+                    </table>
+                </div>
+                <div class="table-responsive my-3" style="box-shadow: 0px 3px 20px #00000029;
+                    border-radius:28px;
+                    opacity: 1;">
+
+                    <table class="table">
+                        <thead>
+                            <tr class="bg-dark text-light" style="height:90px; text-align: center;">
+                                <th class="mb-3 pb-5 justify-content-center align-items-center" style="text-align: center;" scope="col ">S.No.</th>
+                                <th class="mb-3 pb-5" style="text-align: center;" scope="col">Referral Program Name
+                                </th>
+                                <th class="mb-3 pb-5" style="text-align: center;border-bottom:4px solid #F3BB03;" scope="col">Audience Weightage
+                                </th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr style="height: 80px;text-align: center;">
+                                <th class="pt-5" style="text-align: center;" scope="row">1.</th>
+                                <td class="pt-5" style="text-align: center;font-weight:550; ">My Referal mobile 1
+                                </td>
+                                <td class="pt-5"><button type="button" style="border-radius:12px;border-color:#AEB0E9;border: none; color:white; background-color: #AEB0E9; width:80px;" class="btn-sm justify-content-center">50%<i style="font-size:12px ;margin-left:10px;margin-right:-17px;" class='fas'>&#xf107;</i></button></td>
+                            </tr>
+                            <tr style="height: 80px;text-align: center;">
+                                <th class="pt-5" style="text-align: center;" scope="row">2.</th>
+                                <td class="pt-5" style="text-align: center;font-weight:550;">My Referal Program 2
+                                </td>
+                                <td class="pt-5"><button type="button" style="border-radius:12px;border-color:#AEB0E9;border: none; color:white; background-color: #AEB0E9; width:80px;" class="btn-sm justify-content-center">50%<i style="font-size:12px ;margin-left:10px;margin-right:-17px;" class='fas'>&#xf107;</i></button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="table-responsive  my-3" style="box-shadow: 0px 3px 20px #00000029;
+                    border-radius:28px;
+                    opacity: 1;">
+                    <table class="table">
+                        <thead>
+                            <tr class="bg-dark text-light" style="height:90px; text-align: center;">
+                                <th class="mb-3 pb-5 justify-content-center align-items-center" style="text-align: center;" scope="col ">S.No.</th>
+                                <th class="mb-3 pb-5" style="text-align: center;" scope="col">Referral Program Name
+                                </th>
+                                <th class="mb-3 pb-5" style="text-align: center;border-bottom:4px solid #F3BB03;border-left:10%; border-right:10%; " scope="col">Preview/Setting</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr style="height: 80px;text-align: center;">
+                                <th class="pt-5" style="text-align: center;" scope="row">1.</th>
+                                <td class="pt-5" style="text-align: center;font-weight:550; ">My Referal mobile 1
+                                </td>
+                                <td class="pt-5"><button type="button" style="border-radius:12px;border:none;box-shadow: 0px 3px 10px #00000047; width:70px; background-color: #F3BB03; color: white; border-color: #F3BB03;" class="btn-sm">Edit</button></td>
+                            </tr>
+                            <tr style="height: 80px;text-align: center;">
+                                <th class="pt-5" style="text-align: center;" scope="row">2.</th>
+                                <td class="pt-5" style="text-align: center;font-weight:550;">My Referal Program 2
+                                </td>
+                                <td class="pt-5"><button type="button" style="border-radius:12px;border:none;box-shadow: 0px 3px 10px #00000047; width:70px; background-color: #F3BB03; color: white; border-color: #F3BB03;" class="btn-sm">Edit</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
-            <div id="analytics" class="tab-pane fade">
-                <div class="container my-4">
-                    <div class="row">
-                        <div class="col-6 col-sm-6 col-md-6 col-lg-6 mx-0 d-flex justify-content-center">
-                            <img class="img-fluid img-responsive" src="./ticket-1.png" alt="" srcset="">
-                        </div>
-                        <div class="col-6 col-sm-6 col-md-6 col-lg-6 mx-0 d-flex justify-content-center ">
-                            <img class="img-fluid img-responsive" src="./ticket-2.png" alt="" srcset="">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-6 col-sm-6 col-md-6 col-lg-6 mx-0 d-flex justify-content-center">
-                            <img class="img-fluid img-responsive" src="./ticket-3.png" alt="" srcset="">
-                        </div>
-                        <div class="col-6 col-sm-6 col-md-6 col-lg-6 mx-0s d-flex justify-content-center">
-                            <img class="img-fluid img-responsive" src="./ticket-4.png" alt="" srcset="">
-                        </div>
+            <div class="container my-5">
+                <div class="d-flex justify-content-center">
+                    <div class="spinner-border" role="status">
+                        <span class="visually-hidden">Loading...</span>
                     </div>
                 </div>
-                <div class="container">
-                    
-                </div>
-               
             </div>
-         
         </div>
+        <div id="analytics" class="tab-pane fade">
+            <div class="container my-4">
+                <div class="row">
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-6 mx-0 d-flex justify-content-center">
+                        <img class="img-fluid img-responsive" src="./ticket-1.png" alt="" srcset="">
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-6 mx-0 d-flex justify-content-center ">
+                        <img class="img-fluid img-responsive" src="./ticket-2.png" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-6 mx-0 d-flex justify-content-center">
+                        <img class="img-fluid img-responsive" src="./ticket-3.png" alt="" srcset="">
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-6 mx-0s d-flex justify-content-center">
+                        <img class="img-fluid img-responsive" src="./ticket-4.png" alt="" srcset="">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+
+            </div>
+
+        </div>
+
     </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
-        integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
-        integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
-        crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <script>
-      $(document).on('click', '.slider-tabs .nav-link', function() {
-  handleTabChange($(this));
-});
+        $(document).on('click', '.slider-tabs .nav-link', function() {
+            handleTabChange($(this));
+        });
 
-handleTabChange($('.slider-tabs .active'));
+        handleTabChange($('.slider-tabs .active'));
 
-function handleTabChange(tab) {
-  var nav = tab.closest('.nav');
-  $('.indicator', nav).css({
-    width: tab.outerWidth(),
-    left: tab.position().left
-  });
-  tab.siblings().removeClass('active');
-  tab.addClass('active');
-}
+        function handleTabChange(tab) {
+            var nav = tab.closest('.nav');
+            $('.indicator', nav).css({
+                width: tab.outerWidth(),
+                left: tab.position().left
+            });
+            tab.siblings().removeClass('active');
+            tab.addClass('active');
+        }
     </script>
 
 
-<script>
-    
+    <script>
         function openCity(evt) {
-  var i, x, tablinks;
- 
-  tablinks = document.getElementsByClassName("tablink");
-  for (i = 0; i < x.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" w3-border-yellow", "");
-  }
-   evt.currentTarget.firstElementChild.className += " w3-border-yellow";
- }
+            var i, x, tablinks;
 
-</script>
-
-
-<script>
-    function setColor(){
-        var count=1;
-        var property = document.getElementById('change');
-        if (count == 0){
-            property.style.backgroundColor = "blue"
-            count=1;        
+            tablinks = document.getElementsByClassName("tablink");
+            for (i = 0; i < x.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" w3-border-yellow", "");
+            }
+            evt.currentTarget.firstElementChild.className += " w3-border-yellow";
         }
-        else{
-            property.style.backgroundColor = "yellow"
-            count=0;
+    </script>
+
+
+    <script>
+        function setColor() {
+            var count = 1;
+            var property = document.getElementById('change');
+            if (count == 0) {
+                property.style.backgroundColor = "blue"
+                count = 1;
+            } else {
+                property.style.backgroundColor = "yellow"
+                count = 0;
+            }
+
         }
-    
-    }
     </script>
 
 
