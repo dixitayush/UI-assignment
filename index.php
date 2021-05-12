@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+<?php 
+include 'backend.php';
+?>
+
 <html lang="en">
 
 <head>
@@ -49,33 +52,36 @@
             </div>
         </div>
     </nav>
-    <div class="container-sm mt-4">
+    <div>
+    <div class="container d-flex justify-content-end mt-4">
         <div class="row d-flex justify-content-end">
             <div class="card1" style="height:50px;
-            width:270px;">
+            width:250px;">
                 <div class=" card-body d-flex justify-content-center align-items-center">
                     <button type="button" style="background-color: #F1F1F1;border:none; border-color: white;
                 box-shadow: 0px 3px 6px #00000029 ;margin-top:-3px;
                  
-                opacity: 1;" class=" btn-circle btn-sm d-flex justify-content-center align-items-center"><i style="font-size:15px;color: #514F48; font-weight:600; "
+                opacity: 1;" class=" btn-circle btn-sm d-flex justify-content-center align-items-center"><i style="font-size:14px;color: #514F48; font-weight:600; "
                             class='fas fa-plus'></i></button>
                     <span>
                         <h5 style="font: normal normal medium 15px/20px Roboto;
-    letter-spacing: 0px;
-    color: #FFFFFF;
-    margin: auto;
-    
-    opacity: 1; margin-left: 6px;">Create New Referral Program</h5>
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        margin: auto;
+        font-size:12px;
+        
+        opacity: 1; margin-left: 6px;">Create New Referral Program</h5>
                     </span>
-
+        
                 </div>
             </div>
         </div>
     </div>
+</div>
  
       <div class="container">
         <div id="carouselExampleLight" class="carousel carousel-warning slide" data-bs-ride="carousel">
-            <div class="carousel-indicators mb-5">
+            <div class="carousel-indicators pb-2">
               <button style="width:1.2vh;
               height:1.2vh;
               border-radius:100%;" type="button" data-bs-target="#carouselExampleLight" data-bs-slide-to="0" class="active mx-1" aria-current="true" aria-label="Slide 1"></button>
@@ -175,7 +181,7 @@
                                             letter-spacing: 0px;
                                             font-weight: bold;
                                              opacity: 1;
-                                             font-size:1.2vh;
+                                             font-size:1.17vh;
                                             color:black;
                                             cursor: pointer;
                                           ">View <i class="fa fa-chevron-right"></i></button>
@@ -218,7 +224,7 @@
                                             letter-spacing: 0px;
                                             font-weight: bold;
                                              opacity: 1;
-                                             font-size:1.2vh;
+                                             font-size:1.17vh;
                                             color:black;
                                             cursor: pointer;
                                           ">View <i class="fa fa-chevron-right"></i></button>
@@ -260,7 +266,7 @@
                                             letter-spacing: 0px;
                                             font-weight: bold;
                                              opacity: 1;
-                                             font-size:1.vh;
+                                             font-size:1.17vh;
                                             color:black;
                                             cursor: pointer;
                                           ">View <i class="fa fa-chevron-right"></i></button>
@@ -296,41 +302,30 @@
                 
                         <div class="col-9 col-sm-9 col-md-9 col-lg-9 d-flex justify-content-start align-items-center">
                             <ul class="nav" style="position: relative;">
-                                <img style="height:40px; margin-right:10px;" class="img-fluid img-responsive nav-item"
-                                    src="./2-row-trophy.png" alt="" srcset="">
+                                 <li class="nav-item d-flex align-items-center"> <img style="height:3vw; margin-right:10px; display: inline;" class="img-fluid img-responsive nav-item"
+                                    src="./2-row-trophy.png" alt="" srcset=""></li>
                                 <li class="nav-item">
                                     <h5 style="
                             font: normal normal bold 19px Roboto;
                             letter-spacing: 0px;
+                            font-size:2vw;
                             white-space : nowrap;
                             color: #707070;
                             margin-right:10px;
                             opacity: 1;" class="custom-trophy-text-css">All Referral Programs</h5>
                                 </li>
 
-                                <li class="nav-item"><button
-                                        style="background-color:#AEB0E9;margin-right:10px;border: none; border-color:#AEB0E9;box-shadow: 0px 3px 6px #00000029; border-radius:28px;width:200px; height:45px;"
-                                        type="button"
-                                        class="btn-sm nav-item d-flex justify-content-start align-items-center"><img
-                                            class="img-fluid img-responsive" style="height:19px; margin-left:14px;"
-                                            src="./row-card-image.png" alt="" srcset="">
-                                        <div class="container-sm d-flex justify-content-start"><span
-                                                class="d-flex justify-content-start">
-                                                <h5 style="font: normal normal medium 14px/20px Roboto;
-                                    letter-spacing: 0px;
-                                   color: #FFFFFF;
-                                    opacity: 1;">Show in Analytics</h5>
-                                            </span>
-                                        </div>
-                                    </button></li>
+                                <li class="nav-item d-flex align-items-center"><button class="d-flex justify-content-start align-items-center display" type="button"><img
+                                    class="img-fluid img-responsive" style="height:1.7vw;margin:10%;"
+                                    src="./row-card-image.png" alt="" srcset="">Show in Analytics</button></li>
                             </ul>
                         </div>
 
 
                         <div class="col-3 col-sm-3 col-lg-3 d-flex  justify-content-startS align-items-center">
 
-                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-                                class="bi bi-download" viewBox="0 0 16 16" style="margin-left:25px;color: #707070;">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                class="bi bi-download" viewBox="0 0 16 16" style="margin-left:25px;color: #707070; height:4vh;">
                                 <path
                                     d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z" />
                                 <path
@@ -371,118 +366,32 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr style="height: 80px;text-align: center;">
-                                    <th class="pt-5" style="text-align: center;" scope="row">1.</th>
-                                    <td class="pt-5" style="text-align: center;font-weight:550; ">My Referal Program 1
-                                    </td>
-                                    <td class="pt-5" style="text-align: center;font-weight:550;">67</td>
-                                    <td class="pt-5" style="text-align: center;font-weight:550;">45</td>
-                                    <td class="pt-5" style="text-align: center;font-weight:550;">$22</td>
-                                    <td class="pt-5"><button type="button"
-                                            style="border-radius:12px;border-color:#AEB0E9;border: none; color:white; background-color: #AEB0E9; width:80px;"
-                                            class="btn-sm justify-content-center">50%<i
-                                                style="font-size:12px ;margin-left:10px;margin-right:-17px;"
-                                                class='fas'>&#xf107;</i></button></td>
-                                    <td class="pt-5"><button type="button"
-                                            style="border-radius:12px;border: none;box-shadow: 0px 3px 10px #00000047; width:70px; background-color: #F3BB03; color: white; border-color: #F3BB03;"
-                                            class="btn-sm">Edit</button></td>
-                                </tr>
-                                <tr style="height: 80px;text-align: center;">
-                                    <th class="pt-5" style="text-align: center;" scope="row">2.</th>
-                                    <td class="pt-5" style="text-align: center;font-weight:550;">My Referal Program 2
-                                    </td>
-                                    <td class="pt-5" style="text-align: center;font-weight:550;">67</td>
-                                    <td class="pt-5" style="text-align: center;font-weight:550;">45</td>
-                                    <td class="pt-5" style="text-align: center;font-weight:550;">$22</td>
-                                    <td class="pt-5"><button type="button"
-                                            style="border-radius:12px;border-color:#AEB0E9;border: none; color:white; background-color: #AEB0E9; width:80px;"
-                                            class="btn-sm justify-content-center">50%<i
-                                                style="font-size:12px ;margin-left:10px;margin-right:-17px;"
-                                                class='fas'>&#xf107;</i></button></td>
-                                    <td class="pt-5"><button type="button"
-                                            style="border-radius:12px;border:none;box-shadow: 0px 3px 10px #00000047; width:70px; background-color: #F3BB03; color: white; border-color: #F3BB03;"
-                                            class="btn-sm">Edit</button></td>
-                                </tr>
-                                <tr style="height: 80px;text-align: center;">
-                                    <th class="pt-5" style="text-align: center;" scope="row">3.</th>
-                                    <td class="pt-5" style="text-align: center;font-weight:550;">My Referal Program 3
-                                    </td>
-                                    <td class="pt-5" style="text-align: center;font-weight:550;">67</td>
-                                    <td class="pt-5" style="text-align: center;font-weight:550;">45</td>
-                                    <td class="pt-5" style="text-align: center;font-weight:550;">$22</td>
-                                    <td class="pt-5"><button type="button"
-                                            style="border-radius:12px;border-color:#AEB0E9;border: none; color:white; background-color: #AEB0E9; width:80px;"
-                                            class="btn-sm justify-content-center">50%<i
-                                                style="font-size:12px ;margin-left:10px;margin-right:-17px;"
-                                                class='fas'>&#xf107;</i></button></td>
-                                    <td class="pt-5"><button type="button"
-                                            style="border-radius:12px;border:none;box-shadow: 0px 3px 10px #00000047; width:70px; background-color: #F3BB03; color: white; border-color: #F3BB03;"
-                                            class="btn-sm">Edit</button></td>
-                                </tr>
-                                <tr style="height: 80px;text-align: center;">
-                                    <th class="pt-5" style="text-align: center;" scope="row">4.</th>
-                                    <td class="pt-5" style="text-align: center;font-weight:550;">My Referal Program 4
-                                    </td>
-                                    <td class="pt-5" style="text-align: center;font-weight:550;">67</td>
-                                    <td class="pt-5" style="text-align: center;font-weight:550;">45</td>
-                                    <td class="pt-5" style="text-align: center;font-weight:550;">$22</td>
-                                    <td class="pt-5"><button type="button"
-                                            style="border-radius:12px;border-color:#AEB0E9;border: none; color:white; background-color: #AEB0E9; width:80px;"
-                                            class="btn-sm justify-content-center">50%<i
-                                                style="font-size:12px ;margin-left:10px;margin-right:-17px;"
-                                                class='fas'>&#xf107;</i></button></td>
-                                    <td class="pt-5"><button type="button"
-                                            style="border-radius:12px;border:none;box-shadow: 0px 3px 10px #00000047; width:70px; background-color: #F3BB03; color: white; border-color: #F3BB03;"
-                                            class="btn-sm">Edit</button></td>
-                                </tr>
-                                <tr style="height: 80px;text-align: center;">
-                                    <th class="pt-5" style="text-align: center;" scope="row">5.</th>
-                                    <td class="pt-5" style="text-align: center;font-weight:550;">My Referal Program 5
-                                    </td>
-                                    <td class="pt-5" style="text-align: center;font-weight:550;">67</td>
-                                    <td class="pt-5" style="text-align: center;font-weight:550;">45</td>
-                                    <td class="pt-5" style="text-align: center;font-weight:550;">$22</td>
-                                    <td class="pt-5"><button type="button"
-                                            style="border-radius:12px;border-color:#AEB0E9;border: none; color:white; background-color: #AEB0E9; width:80px;"
-                                            class="btn-sm justify-content-center">50%<i
-                                                style="font-size:12px ;margin-left:10px;margin-right:-17px;"
-                                                class='fas'>&#xf107;</i></button></td>
-                                    <td class="pt-5"><button type="button"
-                                            style="border-radius:12px;border:none;box-shadow: 0px 3px 10px #00000047; width:70px; background-color: #F3BB03; color: white; border-color: #F3BB03;"
-                                            class="btn-sm">Edit</button></td>
-                                </tr>
-                                <tr style="height: 80px; text-align: center;">
-                                    <th class="pt-5" style="text-align: center;" scope="row">6.</th>
-                                    <td class="pt-5" style="text-align: center;font-weight:550;">My Referal Program 6
-                                    </td>
-                                    <td class="pt-5" style="text-align: center;font-weight:550;">67</td>
-                                    <td class="pt-5" style="text-align: center;font-weight:550;">45</td>
-                                    <td class="pt-5" style="text-align: center;font-weight:550;">$22</td>
-                                    <td class="pt-5"><button type="button"
-                                            style="border-radius:12px;border-color:#AEB0E9;border: none; color:white; background-color: #AEB0E9; width:80px;"
-                                            class="btn-sm justify-content-center">50%<i
-                                                style="font-size:12px ;margin-left:10px;margin-right:-17px;"
-                                                class='fas'>&#xf107;</i></button></td>
-                                    <td class="pt-5"><button type="button"
-                                            style="border-radius:12px;border:none;box-shadow: 0px 3px 10px #00000047; width:70px; background-color: #F3BB03; color: white; border-color: #F3BB03;"
-                                            class="btn-sm">Edit</button></td>
-                                </tr>
-                                <tr style="height: 80px; text-align: center;">
-                                    <th class="pt-5" style="text-align: center;" scope="row">7.</th>
-                                    <td class="pt-5" style="text-align: center;font-weight:550;">My Referal Program 6
-                                    </td>
-                                    <td class="pt-5" style="text-align: center;font-weight:550;">67</td>
-                                    <td class="pt-5" style="text-align: center;font-weight:550;">45</td>
-                                    <td class="pt-5" style="text-align: center;font-weight:550;">$22</td>
-                                    <td class="pt-5"><button type="button"
-                                            style="border-radius:12px;border-color:#AEB0E9;border: none; color:white; background-color: #AEB0E9; width:80px;"
-                                            class="btn-sm justify-content-center">50%<i
-                                                style="font-size:12px ;margin-left:10px;margin-right:-17px;"
-                                                class='fas'>&#xf107;</i></button></td>
-                                    <td class="pt-5"><button type="button"
-                                            style="border-radius:12px;border:none;box-shadow: 0px 3px 10px #00000047; width:70px; background-color: #F3BB03; color: white; border-color: #F3BB03;"
-                                            class="btn-sm">Edit</button></td>
-                                </tr>
+
+                            <?php
+                            
+                             while($row = mysqli_fetch_assoc($result)){
+                           
+                               echo"<tr style='height: 80px;text-align: center;'>
+                               <th class='pt-5' style='text-align: center;' scope='row'>". $row['Sn'] . "</th>
+                               <td class='pt-5' style='text-align: center;font-weight:550; '>". $row['Refferal_Programme_name'] . "</td>
+                               <td class='pt-5' style='text-align: center;font-weight:550;'>". $row['Customers_no'] . "</td>
+                               <td class='pt-5' style='text-align: center;font-weight:550;'>". $row['Order_placed'] . "</td>
+                               <td class='pt-5' style='text-align: center;font-weight:550;'>".'$'. $row['Total_revenue'] . "</td>
+                               <td class='pt-5'><button type='button'
+                                       style='border-radius:12px;border-color:#AEB0E9;border: none; color:white; background-color: #AEB0E9; width:80px;'
+                                       class='btn-sm justify-content-center'>50%<i
+                                           style='font-size:12px ;margin-left:10px;margin-right:-17px;'
+                                           class='fas'>&#xf107;</i></button></td>
+                               <td class='pt-5'><button type='button'
+                                       style='border-radius:12px;border: none;box-shadow: 0px 3px 10px #00000047; width:70px; background-color: #F3BB03; color: white; border-color: #F3BB03;'
+                                       class='btn-sm'>Edit</button></td>
+                           </tr>";
+
+
+                        
+                             }  
+
+                             ?>
 
                             </tbody>
                         </table>
@@ -506,21 +415,19 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr style="height: 80px;text-align: center;">
-                                    <th class="pt-5" style="text-align: center;" scope="row">1.</th>
-                                    <td class="pt-5" style="text-align: center;font-weight:550; ">My Referal mobile 1
-                                    </td>
-                                    <td class="pt-5" style="text-align: center;font-weight:550;">67</td>
-
-                                </tr>
-                                <tr style="height: 80px;text-align: center;">
-                                    <th class="pt-5" style="text-align: center;" scope="row">2.</th>
-                                    <td class="pt-5" style="text-align: center;font-weight:550;">My Referal Program 2
-                                    </td>
-                                    <td class="pt-5" style="text-align: center;font-weight:550;">67</td>
-
-                                </tr>
-
+                            <?php
+                              
+                               while($row = mysqli_fetch_assoc($result)){
+                            
+                              echo" <tr style='height: 80px;text-align: center;'>
+                              <th class='pt-5' style='text-align: center;' scope='row'>". $row['Sn'] . "</th>
+                              <td class='pt-5' style='text-align: center;font-weight:550; '>". $row['Refferal_Programme_name'] . "</td>
+                              <td class='pt-5' style='text-align: center;font-weight:550;'>". $row['Customers_no'] . "</td>
+                          </tr>";
+                          
+                               }
+                               ?>
+                            
 
                             </tbody>
                         </table>
@@ -542,18 +449,21 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr style="height: 80px;text-align: center;">
-                                    <th class="pt-5" style="text-align: center;" scope="row">1.</th>
-                                    <td class="pt-5" style="text-align: center;font-weight:550; ">My Referal mobile 1
-                                    </td>
-                                    <td class="pt-5" style="text-align: center;font-weight:550;">67</td>
-                                </tr>
-                                <tr style="height: 80px;text-align: center;">
-                                    <th class="pt-5" style="text-align: center;" scope="row">2.</th>
-                                    <td class="pt-5" style="text-align: center;font-weight:550;">My Referal Program 2
-                                    </td>
-                                    <td class="pt-5" style="text-align: center;font-weight:550;">67</td>
-                                </tr>
+                             
+                               <?php
+                              
+                               while($row = mysqli_fetch_assoc($result)){
+                            
+                              echo" <tr style='height: 80px;text-align: center;'>
+                              <th class='pt-5' style='text-align: center;' scope='row'>". $row['Sn'] . "</th>
+                              <td class='pt-5' style='text-align: center;font-weight:550; '>". $row['Refferal_Programme_name'] . "</td>
+                              <td class='pt-5' style='text-align: center;font-weight:550;'>". $row['Order_placed'] . "</td>
+                          </tr>";
+
+                               }
+
+                               ?>
+                            
                             </tbody>
                         </table>
                     </div>
@@ -571,24 +481,27 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr style="height: 80px;text-align: center;">
-                                    <th class="pt-5" style="text-align: center;" scope="row">1.</th>
-                                    <td class="pt-5" style="text-align: center;font-weight:550; ">My Referal mobile 1
-                                    </td>
-                                    <td class="pt-5" style="text-align: center;font-weight:550;">67</td>
-                                </tr>
-                                <tr style="height: 80px;text-align: center;">
-                                    <th class="pt-5" style="text-align: center;" scope="row">2.</th>
-                                    <td class="pt-5" style="text-align: center;font-weight:550;">My Referal Program 2
-                                    </td>
-                                    <td class="pt-5" style="text-align: center;font-weight:550;">67</td>
-                                </tr>
+                              <?php
+                              
+                               while($row = mysqli_fetch_assoc($result)){
+                            
+                              echo" <tr style='height: 80px;text-align: center;'>
+                              <th class='pt-5' style='text-align: center;' scope='row'>". $row['Sn'] . "</th>
+                              <td class='pt-5' style='text-align: center;font-weight:550; '>". $row['Refferal_Programme_name'] . "</td>
+                              <td class='pt-5' style='text-align: center;font-weight:550;'>".'$'. $row['Total_revenue'] . "</td>
+                          </tr>";
+
+                               }
+
+                               ?>
+                          
                             </tbody>
                         </table>
                     </div>
                     <div class="table-responsive my-3" style="box-shadow: 0px 3px 20px #00000029;
                     border-radius:28px;
                     opacity: 1;">
+
                         <table class="table">
                             <thead>
                                 <tr class="bg-dark text-light" style="height:90px; text-align: center;">
