@@ -75,6 +75,7 @@ h1 {
     padding: 6px 0px;
     border-radius: 15px;
     font-size: 8px;
+    whi
     text-align: center;
 }
 .btn-custom{
@@ -216,8 +217,8 @@ opacity: 1;
     background-color:#514F48;
       opacity:1; 
       box-shadow: 0px 3px 20px #00000047;
-      border-radius: 35px;
-      width:20%;
+      border-radius:18px;
+     
       
       box-shadow: 0px 3px 20px #00000047;
   }

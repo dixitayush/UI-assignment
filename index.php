@@ -51,34 +51,22 @@ include 'backend.php';
             </div>
         </div>
     </nav>
-    <div>
-        <div class="container d-flex justify-content-end mt-4">
-            <div class="row d-flex justify-content-end">
-                <div class="card1" style="height:50px;
-            width:250px;">
-                    <div class=" card-body d-flex justify-content-center align-items-center">
-                        <button type="button" style="background-color: #F1F1F1;border:none; border-color: white;
-                box-shadow: 0px 3px 6px #00000029 ;margin-top:-3px;
-                 
-                opacity: 1;" class=" btn-circle btn-sm d-flex justify-content-center align-items-center"><i style="font-size:14px;color: #514F48; font-weight:600; " class='fas fa-plus'></i></button>
-                        <span>
-                            <h5 style="font: normal normal medium 15px/20px Roboto;
-        letter-spacing: 0px;
-        color: #FFFFFF;
-        margin: auto;
-        font-size:12px;
+       <div class="container px-3">
+       <div class="container mt-5 d-flex justify-content-end">
+           <div class="box card1 d-flex justify-content-start align-items-center" style="width:24%;min-width:17%; height:3.5vw;min-height:3vh;">
+           <button type="button" style="background-color: #F1F1F1;border:none; border-color: white;
+        box-shadow: 0px 3px 6px #00000029 ;position:relative; display:inline;height:1.5vw;width:1.5vw;min-height:1.5vh;min-width:1.5vh;border-radius:100%;
+         
+        opacity: 1;" class="d-flex justify-content-center align-items-center ml-3"><i style="font-size:0.7vw;color: #514F48; font-weight:550; " class='fas fa-plus'></i></button>
         
-        opacity: 1; margin-left: 6px;">Create New Referral Program</h5>
-                        </span>
+         <span style="display:inline;font-size:0.9vw;margin:auto;color:white">Create New Referral Program</span>
 
-                    </div>
-                </div>
-            </div>
         </div>
-    </div>
+       </div>
+       </div>
 
     <div class="container my-4">
-        <div id="carouselExampleLight" class="carousel carousel-warning slide" data-bs-ride="carousel">
+        <div id="carouselExampleLight" class="carousel carousel-warning slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-indicators pb-2">
                 <button style="width:1.2vh;
               height:1.2vh;
@@ -93,15 +81,15 @@ include 'backend.php';
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="4000">
 
-                    <div class="box d-flex justify-content-center align-items-center" style="margin-top:70px; margin-bottom:40px;z-index:initial;">
+                    <div class="box d-flex justify-content-center align-items-center" style="margin-top:20px;padding-top:4%;margin-bottom:20px;z-index:initial;">
                         <div class="row" id="slide1" style=" z-index:-1;background: #F2F2F2 0% 0% no-repeat padding-box;
                     box-shadow: 0px 3px 15px #0000003D;
-                    border-radius:23px;opacity: 1;height:11vw; width:80%">
-                            <div class="col-4 d-flex justify-content-center">
+                   border-radius:14px;opacity: 1;height:11vw;min-height:6vh; width:80%">
+                            <div class="col-4 d-flex justify-content-center align-items-center">
                                 <img class="img-fluid" style="margin-left:5%;position:relative; bottom:50%;" src="./protip1.png" alt="" srcset="">
                             </div>
                             <div class="col-8 d-flex justify-content-start align-items-center">
-                                <div class="row" id="row-text" style="position:relative;bottom:20%;">
+                                <div class="row" id="row-text" style="position:relative;bottom:17%;">
                                     <h3 style="font-size:1.6vw;font-weight:bold;font-family:Roboto; margin:auto;
                                  letter-spacing: 0px;
                                 color: #272727; 
@@ -109,7 +97,8 @@ include 'backend.php';
                                     <p style="font-size:0.9vw;
                                     letter-spacing: 0px;
                                       color: #272727;
-                                      font-family:Roboto;
+                                      font-weight:560;
+                                      font: normal normal medium 20px/26px Roboto;
                                       margin-top:2%;
                                      opacity: 1;">A/B Test Your Referral Program. Start Creating new Referral Program to find out which referral program strategy brings most of the revenue to your Business.</p>
                                 </div>
@@ -121,20 +110,20 @@ include 'backend.php';
                 <div class="carousel-item" data-bs-interval="4000">
 
                     
-                <div class="box d-flex justify-content-center align-items-center" style="margin-top:70px; margin-bottom:40px;z-index:initial;">
+                <div class="box d-flex justify-content-center align-items-center" style="margin-top:20px;padding-top:4%; margin-bottom:20px;z-index:initial;">
                         <div class="row" id="slide2" style=" z-index:-1;background: #455A64 0% 0% no-repeat padding-box;
                     box-shadow: 0px 3px 15px #0000003D;
-                    border-radius:23px;opacity: 1;height:11vw; width:80%">
+                   border-radius:14px;opacity: 1;height:11vw;min-height:6vh; width:80%">
                             <div class="col-4 d-flex justify-content-center">
                                 <img class="img-fluid" style="margin-left:5%;position:relative; bottom:50%;" src="./protip2.png" alt="" srcset="">
                             </div>
                             <div class="col-8 d-flex justify-content-start align-items-center">
-                                <div class="row" id="row-text" style="position:relative;bottom:20%;">
+                                <div class="row" id="row-text" style="position:relative;bottom:17%;">
                                     <h3 style="font-size:1.5vw;font-weight:bold;font-family:Roboto; margin:auto;
                                  letter-spacing: 0px;
                                  color:white;
                                    opacity: 1;">Pro tip 2#</h3>
-                                    <p style="font-size:0.9vw;font-family:Roboto;
+                                    <p style="font-size:0.9vw;font: normal normal medium 20px/26px Roboto;
                                     letter-spacing: 0px;
                                     color:white;
                                     margin-top:2%;
@@ -148,15 +137,15 @@ include 'backend.php';
                 </div>
                 <div class="carousel-item">
                  
-                <div class="box d-flex justify-content-center align-items-center" style="margin-top:70px; margin-bottom:40px;z-index:initial;">
+                <div class="box d-flex justify-content-center align-items-center" style="margin-top:20px; margin-bottom:20px;padding-top:4%;z-index:initial;">
                         <div class="row" id="slide3" style=" z-index:-1;background: #739AF0 0% 0% no-repeat padding-box;
                     box-shadow: 0px 3px 15px #0000003D;
-                    border-radius:23px;opacity: 1;height:11vw; width:80%">
+                   border-radius:14px;opacity: 1;height:11vw;min-height:6vh;width:80%">
                             <div class="col-4 d-flex justify-content-center">
                                 <img class="img-fluid" style="margin-left:5%;position:relative; bottom:50%;" src="./protip3.png" alt="" srcset="">
                             </div>
                             <div class="col-8 d-flex justify-content-start align-items-center">
-                                <div class="row" id="row-text" style="position:relative;bottom:20%;">
+                                <div class="row" id="row-text" style="position:relative;bottom:17%;">
                                     <h3 style="font-size:1.5vw;font-weight:bold;font-family:Roboto; margin:auto;
                                  letter-spacing: 0px;
                                  color:white;
@@ -165,9 +154,9 @@ include 'backend.php';
                                     letter-spacing: 0px;
                                     color:white;
                                     margin-top:2%;
-                                    font-family:Roboto;
+                                    font: normal normal medium 20px/26px Roboto;
                                 
-                                     opacity: 1;">A/B Test Your Referral Program. Start Creating new Referral Program to find out which referral program strategy brings most of the revenue to your Business.</p>
+                                     opacity: 1;">Customize rewards, decide what an advocate will get referring your Product and What Referred friend will get.</p>
                                 </div>
                             </div>
                         </div>
@@ -187,7 +176,7 @@ include 'backend.php';
         </div>
     </div>
 
-    <div class="container" style="margin-top:50px;">
+    <div class="container" style="margin-top:10px;">
         <nav class="nav nav-pills slider-tabs">
             <a style="font: normal normal medium 27px/37px Roboto; font-weight: bolder; font-size:18px;background-color: #FFFFFF;
             letter-spacing: 0px;
@@ -213,7 +202,7 @@ include 'backend.php';
                 <div class="row">
                     <div class="col-6 col-sm-6 col-md-6 col-lg-3 my-3">
                         <div class="card" style="box-shadow: 0px 3px 6px #0000002B;
-                                border-radius: 23px; background-color: #8DD8A8;width:100%;">
+                                border-radius: 23px; background-color: #8DD8A8;width:100%;border:none;">
                             <div class="card-body">
                                 <div class="container-sm my-3">
                                     <h4 class="card-title" style="font: normal normal medium 21px/30px Roboto;
@@ -236,15 +225,19 @@ include 'backend.php';
                                     <button class="btn-sm " style="
                                             background-color:white;
                                             border: none;
-                                            width:10vh;
-                                            height:100%;
+                                            position:relative;
+                                            width:30%;
+                                            min-width:4.5vh;
+                                            height:90%;
+                                            min-height:0.4vh;
                                             
                                             border-radius:12px;
                                             font: normal normal medium 3px/8px Roboto;
                                             letter-spacing: 0px;
                                             font-weight: bold;
                                              opacity: 1;
-                                             font-size:1.17vh;
+                                             font-size:0.6vw;
+                                             white-space:nowrap;
                                             color:black;
                                             cursor: pointer;
                                           ">View <i class="fa fa-chevron-right"></i></button>
@@ -255,13 +248,14 @@ include 'backend.php';
                     </div>
 
                     <div class="col-6 col-sm-6 col-md-6  col-lg-3 my-3">
-                        <div class="card" style="border-radius:23px; box-shadow: 0px 3px 6px #0000002B; background-color: #F6BCCA; width:100%;">
+                        <div class="card" style="border-radius:23px; box-shadow: 0px 3px 6px #0000002B; background-color: #F6BCCA; width:100%;border:none;">
                             <div class="card-body">
                                 <div class="container-sm my-3">
                                     <h4 class="card-title" style="font: normal normal medium 21px/30px Roboto;
                                         letter-spacing: 0px;
                                         color: #FFFFFF;
                                         font-size:1.4vw;
+                                        
                                         
                                         clear: both;
                                         opacity: 1;">Revenue Rate</h4>
@@ -275,17 +269,22 @@ include 'backend.php';
                                     <img class="img-fluid img-responsive" style="width:100%;" src="./card-2-image.png" alt="" srcset="">
                                 </div>
                                 <div class="row d-flex justify-content-end mx-4 my-2">
-                                    <button class="btn-sm" style="
+                                <button class="btn-sm " style="
                                             background-color:white;
                                             border: none;
-                                            width:10vh;
-                                            height:100%;
+                                            position:relative;
+                                            width:30%;
+                                            min-width:4.5vh;
+                                            height:90%;
+                                            min-height:0.4vh;
+                                            
                                             border-radius:12px;
                                             font: normal normal medium 3px/8px Roboto;
                                             letter-spacing: 0px;
                                             font-weight: bold;
+                                            white-space:nowrap;
                                              opacity: 1;
-                                             font-size:1.17vh;
+                                             font-size:0.6vw;
                                             color:black;
                                             cursor: pointer;
                                           ">View <i class="fa fa-chevron-right"></i></button>
@@ -296,7 +295,7 @@ include 'backend.php';
                     </div>
                     <div class="col-6 col-sm-6 col-md-6 col-lg-3 my-3">
                         <div class="card" style="box-shadow: 0px 3px 6px #0000002B;
-                                border-radius: 23px; background-color: #AEB0E9; width:100%; ">
+                                border-radius: 23px; background-color: #AEB0E9; width:100%;border:none; ">
                             <div class="card-body">
                                 <div class="container-sm my-3">
                                     <h4 class="card-title" style="font: normal normal medium 21px/30px Roboto;
@@ -316,17 +315,21 @@ include 'backend.php';
                                     <img class="img-fluid img-responsive" style="width:100%;" src="./card-3-image.png" alt="" srcset="">
                                 </div>
                                 <div class="row d-flex justify-content-end mx-4 my-2">
-                                    <button class="btn-sm" style="
+                                <button class="btn-sm " style="
                                             background-color:white;
                                             border: none;
-                                            width:10vh;
-                                            height:100%;
+                                            position:relative;
+                                            width:30%;
+                                            min-width:4.5vh;
+                                            height:90%;
+                                            min-height:0.4vh;
+                                            white-space:nowrap;
                                             border-radius:12px;
                                             font: normal normal medium 3px/8px Roboto;
                                             letter-spacing: 0px;
                                             font-weight: bold;
                                              opacity: 1;
-                                             font-size:1.17vh;
+                                             font-size:0.67vw;
                                             color:black;
                                             cursor: pointer;
                                           ">View <i class="fa fa-chevron-right"></i></button>
@@ -379,7 +382,7 @@ include 'backend.php';
 
                     <div class="col-3 col-sm-3 col-lg-3 d-flex  justify-content-startS align-items-center">
 
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16" style="margin-left:25px;color: #707070; height:4vh;">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16" style="margin-left:25px;color: #707070; height:1.3vw;min-height:1.6vh;">
                             <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z" />
                             <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z" />
                         </svg>
