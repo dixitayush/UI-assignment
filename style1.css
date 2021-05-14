@@ -75,7 +75,6 @@ h1 {
     padding: 6px 0px;
     border-radius: 15px;
     font-size: 8px;
-    whi
     text-align: center;
 }
 .btn-custom{
@@ -192,7 +191,7 @@ opacity: 1;
       display: none;
     }
   }
-  @media (max-width:699px) {
+  @media (max-width:1199px) {
     div#dpt{
       margin-top:-8px;
     }
@@ -217,10 +216,7 @@ opacity: 1;
     background-color:#514F48;
       opacity:1; 
       box-shadow: 0px 3px 20px #00000047;
-      border-radius:18px;
-     
-      
-      box-shadow: 0px 3px 20px #00000047;
+      border-radius:35px;
   }
   .card1:hover{
     background: #F3BB03 0% 0% no-repeat padding-box;
@@ -235,12 +231,15 @@ opacity: 1;
     background-color: #E9E9E9;
     }
 
-    @media (max-width:699px) {
+    @media (max-width:1099px) {
       img#notificationbell{
         display: none;
       }
       img#questionicon{
         display: none;
+      }
+      img#showinanalyticsimage{
+        display:none;
       }
     }
     .carousel-indicators li {
@@ -351,3 +350,5 @@ opacity: 1;
         }
       
     }
+
+          
