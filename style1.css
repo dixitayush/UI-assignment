@@ -352,3 +352,17 @@ opacity: 1;
     }
 
           
+    @media (max-width:899px) {
+      div#slide3{
+        border-radius:10px;
+      }
+    }
+
+    #menubutton:hover{
+
+      position: relative;
+      margin:auto;
+      height:72%;
+      border-radius:150%;
+      background-color:#F5F5F5;
+    }

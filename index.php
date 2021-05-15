@@ -25,45 +25,41 @@ include 'backend.php';
 <body>
 
     <nav class="nav nav1 sticky-top" style="height: 50px;">
-        <button class="btn mx-4"><i class="fa fa-bars"></i></button>
+        <button id="menubutton" class="btn mx-3"><i style="font-size:2.5vmin;" class="fa fa-bars"></i></button>
         <div class="justify-content-center icon1" style="margin:auto;">
-            <img style="height: 45px;" class="img-fluid img-responsive" src="./icon1.png" alt="">
+            <img style="height: 45px;" class="img-fluid" src="./icon1.png" alt="">
         </div>
 
 
         <div class="justify-content-end" style="align-items:center;">
             <div class=" nav-item notify-icon">
-                <img id="notificationbell" style="height:18px;" src="./notifiy-icon.png" alt="">
-                <img id="questionicon" src="./quest-icon.png" alt="">
+                <img id="notificationbell" style="height:16px;" src="./notifiy-icon.png" alt="">
+                <img id="questionicon" style="height:16px;" src="./quest-icon.png" alt="">
                 <div class="dropdown" id="dpt">
                     <a style="font: normal normal normal 14px/28px Roboto;
                     letter-spacing: 0px;
                     color: #000000;
                     opacity: 1;" href="#" class="dropdown-toggle" data-toggle="dropdown"><span id="dpd">Lara
                             Erickson</span></a>
-                    <div class="dropdown-menu">
-                        <a href="#" class="dropdown-item">Action</a>
-                        <a href="#" class="dropdown-item">Another action</a>
-                    </div>
-                    <img style="height:25px;" src="./profile.png" alt="">
+                    <img class="img-fluid" style="height:25px;" src="./profile.png" alt="">
                 </div>
 
             </div>
         </div>
     </nav>
-     
+
     <div class="container">
-    <div class="container mt-5 d-flex justify-content-end">
-           <div class="box card1 d-flex justify-content-start align-items-center" style="width:24%;min-width:24%; height:3.5vw;min-height:3vh;border-radius:25px;">
-           <button type="button" style="background-color: #F1F1F1;border:none; border-color: white;
+        <div class="mt-4 d-flex justify-content-end">
+            <div class="box card1 d-flex justify-content-start align-items-center" style="width:25%;min-width:24%; height:3.5vw;min-height:3.2vh;border-radius:25px;">
+                <button type="button" style="background-color: #F1F1F1;border:none; border-color: white;
         box-shadow: 0px 3px 6px #00000029 ;position:relative; display:inline;height:2vw;width:2vw;min-height:2vh;min-width:2vh;border-radius:100%;margin:auto;
          
-        opacity: 1;" class="d-flex justify-content-center align-items-center"><i style="font-size:1.42vmin;color: #514F48; font-weight:550; " class='fas fa-plus'></i></button>
-        
-         <span style="display:inline;text-align:left;white-space:nowrap;font-size:1.2vmin;font-size:1vw;margin:auto;color:white">Create New Referral Program</span>
+        opacity: 1;" class="d-flex justify-content-center align-items-center"><i style="font-size:1.7vmin;color: #514F48; font-weight:550; " class='fas fa-plus'></i></button>
 
+                <span style="display:inline;text-align:left;white-space:nowrap;font-size:1.5vmin;font-size:1.09vw;margin:auto;color:white">Create New Referral Program</span>
+
+            </div>
         </div>
-       </div>
         <div id="carouselExampleLight" class="carousel carousel-warning slide" data-bs-ride="carousel">
             <div class="carousel-indicators pb-2">
                 <button style="width:0.8vmin; width:0.7vmax;
@@ -79,23 +75,23 @@ include 'backend.php';
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="4000">
 
-                    <div class="box d-flex justify-content-center align-items-center" style="margin-top:20px;padding-top:4%;margin-bottom:20px;%;z-index:initial;">
+                    <div class="box d-flex justify-content-center align-items-center" style="margin-top:3%;padding-top:2%;margin-bottom:20px;z-index:initial;box-shadow:none;">
                         <div class="row" id="slide1" style=" z-index:-1;background: #F2F2F2 0% 0% no-repeat padding-box;
                     box-shadow: 0px 3px 15px #0000003D;
-                   border-radius:14px;opacity: 1;height:11vw;min-height:7.5vh; width:80%">
+                   border-radius:18px;opacity: 1;height:13vw;min-height:8.5vh; width:97%">
                             <div class="col-4 d-flex justify-content-center align-items-center">
-                                <img class="img-fluid" style="margin-left:5%;position:relative; bottom:50%;" src="./protip1.png" alt="" srcset="">
+                                <img class="img-fluid" style="margin-left:5%;position:relative; bottom:50%" src="./protip1.png" alt="" srcset="">
                             </div>
                             <div class="col-8 d-flex justify-content-start align-items-center">
                                 <div class="row" id="row-text" style="position:relative;bottom:17%;">
-                                    <h3 style="font-size:1.3vmax;font-weight:bold;font-family:Roboto; margin:auto;
+                                    <h3 style="font-size:1.4vmax;font-size:2.1vw;font-weight:bold;font-family:Roboto; margin:auto;
                                  letter-spacing: 0px;
                                 color: #272727; 
                                    opacity: 1;">Pro tip 1#</h3>
-                                    <p style="font-size:2vmin;font-size:1vw;
+                                    <p style="font-size:2vmin;font-size:1.02vw;
                                     letter-spacing: 0px;
                                       color: #272727;
-                                      font-weight:540;
+                                      font-weight:550;
                                       font: normal normal medium 20px/26px Roboto;
                                       margin-top:2%;
                                      opacity: 1;">A/B Test Your Referral Program. Start Creating new Referral Program to find out which referral program strategy brings most of the revenue to your Business.</p>
@@ -107,24 +103,25 @@ include 'backend.php';
                 </div>
                 <div class="carousel-item" data-bs-interval="4000">
 
-                    
-                <div class="box d-flex justify-content-center align-items-center" style="margin-top:20px;padding-top:4%; margin-bottom:20px;z-index:initial;">
+
+                    <div class="box d-flex justify-content-center align-items-center" style="margin-top:3%;padding-top:3%; margin-bottom:20px;z-index:initial;">
                         <div class="row" id="slide2" style=" z-index:-1;background: #455A64 0% 0% no-repeat padding-box;
                     box-shadow: 0px 3px 15px #0000003D;
-                   border-radius:14px;opacity: 1;height:11vw;min-height:7.5vh; width:80%">
+                   border-radius:18px;opacity: 1;height:13vw;min-height:8.5vh; width:97%">
                             <div class="col-4 d-flex justify-content-center">
                                 <img class="img-fluid" style="margin-left:5%;position:relative; bottom:50%;" src="./protip2.png" alt="" srcset="">
                             </div>
                             <div class="col-8 d-flex justify-content-start align-items-center">
                                 <div class="row" id="row-text" style="position:relative;bottom:17%;">
-                                    <h3 style="font-size:1.3vmax;font-weight:bold;font-family:Roboto; margin:auto;
+                                    <h3 style="font-size:1.4vmax;font-size:2.1vw;font-weight:bold;font-family:Roboto; margin:auto;
                                  letter-spacing: 0px;
                                  color:white;
                                    opacity: 1;">Pro tip 2#</h3>
-                                    <p style="font-size:2vmin;font-size:1vw;font: normal normal medium 20px/26px Roboto;
+                                    <p style="font-size:2vmin;font-size:1.02vw;font: normal normal medium 20px/26px Roboto;
                                     letter-spacing: 0px;
                                     color:white;
                                     margin-top:2%;
+                                    font-weight:550;
                                 
                                      opacity: 1;">A/B Test Your Referral Program. Start Creating new Referral Program to find out which referral program strategy brings most of the revenue to your Business.</p>
                                 </div>
@@ -134,47 +131,47 @@ include 'backend.php';
 
                 </div>
                 <div class="carousel-item">
-                 
-                <div class="box d-flex justify-content-center align-items-center" style="margin-top:20px; margin-bottom:20px;padding-top:4%;z-index:initial;">
-                        <div class="row" id="slide3" style=" z-index:-1;background: #739AF0 0% 0% no-repeat padding-box;
+
+                    <div class="box d-flex justify-content-center align-items-center" style="margin-top:3%; margin-bottom:20px;padding-top:3%;z-index:initial;">
+                        <div id="slide3" class="row"  style=" z-index:-1;background: #739AF0 0% 0% no-repeat padding-box;
                     box-shadow: 0px 3px 15px #0000003D;
-                   border-radius:14px;opacity: 1;height:11vw;min-height:7.5vh;width:80%">
+                   border-radius:18px;opacity: 1;height:13vw;min-height:8.5vh;width:97%">
                             <div class="col-4 d-flex justify-content-center">
-                                <img class="img-fluid" style="margin-left:5%;position:relative; bottom:50%;" src="./protip3.png" alt="" srcset="">
+                                <img class="img-fluid" style="margin-left:5%;position:relative; bottom:50%;padding:auto;" src="./protip3.png" alt="" srcset="">
                             </div>
                             <div class="col-8 d-flex justify-content-start align-items-center">
                                 <div class="row" id="row-text" style="position:relative;bottom:17%;">
-                                    <h3 style="font-size:1.3vmax;font-weight:bold;font-family:Roboto; margin:auto;
+                                    <h3 style="font-size:1.4vmax;font-size:2.1vw;font-weight:bold;font-family:Roboto; margin:auto;
                                  letter-spacing: 0px;
                                  color:white;
                                    opacity: 1;">Pro tip 3#</h3>
-                                    <p style="font-size:2vmin;font-size:1vw;
+                                    <p style="font-size:2vmin;font-size:1.02vw;
                                     letter-spacing: 0px;
                                     color:white;
                                     margin-top:2%;
+                                    font-weight:550;
                                     font: normal normal medium 20px/26px Roboto;
                                 
-                                     opacity: 1;">Customize rewards, decide what an advocate will get referring your Product and What Referred friend will get.</p>
+                                     opacity: 1;">A/B Test Your Referral Program. Start Creating new Referral Program to find out which referral program strategy brings most of the revenue to your Business.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-            
+
 
                 </div>
             </div>
-            <button style="color: rgb(255, 255, 66);;" class="carousel-control-prev" type="button" data-bs-target="#carouselExampleLight" data-bs-slide="prev">
+            <button style="color: rgb(255, 255, 66);display:none;" class="carousel-control-prev" type="button" data-bs-target="#carouselExampleLight" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button style="color:rgb(255, 255, 66);;" class="carousel-control-next" type="button" data-bs-target="#carouselExampleLight" data-bs-slide="next">
+            <button style="color:rgb(255, 255, 66);display:none;" class="carousel-control-next" type="button" data-bs-target="#carouselExampleLight" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-    </div>
-
-    <div class="container" style="margin-top:10px;">
+  
+    <div style="margin-top:10px;">
         <nav class="nav nav-pills slider-tabs">
             <a style="font: normal normal medium 27px/37px Roboto; font-weight: bolder; font-size:14px;background-color: #FFFFFF;
             letter-spacing: 0px;
@@ -187,16 +184,11 @@ include 'backend.php';
             opacity: 1; " class="text-sm-center nav-link" data-toggle="tab" href="#analytics">Analytics</a>
             <div class="indicator"></div>
             <div class="hline"></div>
-
         </nav>
-
-
     </div>
-
-
     <div class="tab-content">
         <div id="Overview" class="tab-pane fade in active">
-            <div class="container my-3">
+            <div class="my-3">
                 <div class="row">
                     <div class="col-6 col-sm-6 col-md-6 col-lg-3 my-3">
                         <div class="card" style="box-shadow: 0px 3px 6px #0000002B;
@@ -241,7 +233,6 @@ include 'backend.php';
                                             cursor: pointer;
                                           ">View <i class="fa fa-chevron-right"></i></button>
                                 </div>
-
                             </div>
                         </div>
                     </div>
@@ -254,9 +245,7 @@ include 'backend.php';
                                         letter-spacing: 0px;
                                         color: #FFFFFF;
                                         font-size:2.8vmin;
-                                        
-                                        
-                                        clear: both;
+                                         clear: both;
                                         opacity: 1;">Revenue Rate</h4>
                                     <p style="font: normal normal normal 14px/20px Roboto;
                                         letter-spacing: 0px;
@@ -268,7 +257,7 @@ include 'backend.php';
                                     <img class="img-fluid img-responsive" style="width:100%;" src="./card-2-image.png" alt="" srcset="">
                                 </div>
                                 <div class="row d-flex justify-content-end mx-4 my-2">
-                                <button class="btn-sm d-flex justify-content-center align-items-center" style="
+                                    <button class="btn-sm d-flex justify-content-center align-items-center" style="
                                             background-color:white;
                                             border: none;
                                             position:relative;
@@ -314,7 +303,7 @@ include 'backend.php';
                                     <img class="img-fluid img-responsive" style="width:100%;" src="./card-3-image.png" alt="" srcset="">
                                 </div>
                                 <div class="row d-flex justify-content-end mx-4 my-2">
-                                <button class="btn-sm d-flex justify-content-center align-items-center" style="
+                                    <button class="btn-sm d-flex justify-content-center align-items-center" style="
                                             background-color:white;
                                             border: none;
                                             position:relative;
@@ -338,7 +327,6 @@ include 'backend.php';
                             </div>
                         </div>
                     </div>
-
                     <div class="col-6 col-sm-6 col-md-6 col-lg-3 my-3 d-flex justify-content-start align-items-center">
                         <div class="row-cols-md-1">
                             <button type="button" style="background-color: #F1F1F1;
@@ -359,7 +347,7 @@ include 'backend.php';
                 </div>
             </div>
 
-            <div class="container my-4">
+            <div class="my-5">
                 <div class="row container-sm my-4">
 
                     <div class="col-9 col-sm-9 col-md-9 col-lg-9 d-flex justify-content-start align-items-center">
@@ -376,7 +364,7 @@ include 'backend.php';
                             opacity: 1;" class="custom-trophy-text-css">All Referral Programs</h5>
                             </li>
 
-                            <li style="position:relative;display:inline;" class="nav-item d-flex align-items-center"><button style="min-height:5vmin;width:15 vw; min-width:10vmin;margin-left:5px;position:relative;display:inline;" class="d-flex justify-content-start align-items-center display" type="button"><img  id="showinanalyticsimage" class="img-fluid img-responsive" style="height:2.5vmin;margin:10%;" src="./row-card-image.png" alt="" srcset=""><span style="font-size:1.5vmin;position:relative;margin-left:1%;" >Show in Analytics</span></button></li>
+                            <li style="position:relative;display:inline;" class="nav-item d-flex align-items-center"><button style="min-height:5vmin;width:15 vw; min-width:10vmin;margin-left:5px;position:relative;display:inline;" class="d-flex justify-content-start align-items-center display" type="button"><img id="showinanalyticsimage" class="img-fluid img-responsive" style="height:2.5vmin;margin:10%;" src="./row-card-image.png" alt="" srcset=""><span style="font-size:1.5vmin;position:relative;margin-left:1%;">Show in Analytics</span></button></li>
                         </ul>
                     </div>
 
@@ -399,7 +387,7 @@ include 'backend.php';
                 </div>
             </div>
 
-            <div class="container my-3" id="div-desktop">
+            <div class="my-5" id="div-desktop">
                 <div class="table-responsive" style="box-shadow: 0px 0px 20px #00000029;
                     border-radius:28px;
                     opacity: 1;">
@@ -427,11 +415,16 @@ include 'backend.php';
                             while ($row = mysqli_fetch_assoc($result)) {
 
                                 echo "<tr style='height: 80px;text-align: center;'>
-                               <th class='pt-5' style='text-align: center;' scope='row'>" . $row['Sn'] . "</th>
-                               <td class='pt-5' style='text-align: center;font-weight:550; '>" . $row['Refferal_Programme_name'] . "</td>
-                               <td class='pt-5' style='text-align: center;font-weight:550;'>" . $row['Customers_no'] . "</td>
-                               <td class='pt-5' style='text-align: center;font-weight:550;'>" . $row['Order_placed'] . "</td>
-                               <td class='pt-5' style='text-align: center;font-weight:550;'>" . '$' . $row['Total_revenue'] . "</td>
+                               <th class='pt-5' style='text-align: center;font: normal normal medium 15px/20px Roboto;
+                               letter-spacing: 0px;' scope='row'>" . $row['Sn'] . "</th>
+                               <td class='pt-5' style='text-align: center;font-weight:550;font: normal normal medium 15px/20px Roboto;
+                               letter-spacing: 0px; '>" . $row['Refferal_Programme_name'] . "</td>
+                               <td class='pt-5' style='text-align: center;font-weight:550;font: normal normal medium 15px/20px Roboto;
+                               letter-spacing: 0px;'>" . $row['Customers_no'] . "</td>
+                               <td class='pt-5' style='text-align: center;font-weight:550;font: normal normal medium 15px/20px Roboto;
+                               letter-spacing: 0px;'>" . $row['Order_placed'] . "</td>
+                               <td class='pt-5' style='text-align: center;font-weight:550;font: normal normal medium 15px/20px Roboto;
+                               letter-spacing: 0px;'>" . '$' . $row['Total_revenue'] . "</td>
                                <td class='pt-5'><button type='button'
                                        style='border-radius:12px;border-color:#AEB0E9;border: none; color:white; background-color: #AEB0E9; width:80px;'
                                        class='btn-sm justify-content-center'>50%<i
@@ -449,18 +442,21 @@ include 'backend.php';
                     </table>
                 </div>
             </div>
-            <div class="container my-3" id="div-mobile">
+            <div class="my-3" id="div-mobile">
                 <div class="table-responsive my-3" style="box-shadow: 0px 3px 20px #00000029;
                     border-radius:28px;
                     opacity: 1;">
 
                     <table class="table">
                         <thead>
-                            <tr class="bg-dark text-light" style="height:90px; text-align: center;">
-                                <th class="mb-3 pb-5 justify-content-center align-items-center" style="text-align: center;font-size:1.2vh;" scope="col ">S.No.</th>
-                                <th class="mb-3 pb-5" style="text-align: center;font-size:1.2vh;" scope="col">Referral Program Name
+                            <tr class="bg-dark text-light" style="height:65px; text-align: center;">
+                                <th class="mb-3 pb-4 justify-content-center align-items-center" style="text-align: center;font-size:1.2vh;font: normal normal medium 12px/16px Roboto;
+letter-spacing: 0px;" scope="col ">S.No.</th>
+                                <th class="mb-3 pb-4" style="text-align: center;font-size:1.2vh;font: normal normal medium 12px/16px Roboto;
+letter-spacing: 0px;" scope="col">Referral Program Name
                                 </th>
-                                <th class="mb-3 pb-5" style="text-align: center;font-size:1.2vh; border-bottom:4px solid #F3BB03;" scope="col"><span>Customers</span>
+                                <th class="mb-3 pb-4" style="text-align: center;font-size:1.2vh; border-bottom:4px solid #F3BB03;font: normal normal medium 12px/16px Roboto;
+letter-spacing: 0px;" scope="col"><span>Customers</span>
                                     <div class="indicator"></div>
                                 </th>
 
@@ -472,10 +468,12 @@ include 'backend.php';
 
                             while ($row = mysqli_fetch_assoc($result2)) {
 
-                                echo "<tr style='height: 80px;text-align: center;'>
+                                echo "<tr style='height: 70px;text-align: center;'>
                                 <th class='pt-5' style='text-align: center;font-size:1.2vh' scope='row'>" . $row['Sn'] . "</th>
-                                <td class='pt-5' style='text-align: center;font-weight:550;font-size:1.2vh '>" . $row['Refferal_Programme_name'] . "</td>
-                                <td class='pt-5' style='text-align: center;font-weight:550;font-size:1.2vh'>" . $row['Customers_no'] . "</td>
+                                <td class='pt-5' style='text-align: center;font-weight:550;font-size:1.2vh;font: normal normal medium 12px/16px Roboto;
+                                letter-spacing: 0px;'>" . $row['Refferal_Programme_name'] . "</td>
+                                <td class='pt-5' style='text-align: center;font-weight:550;font-size:1.2vh;font: normal normal medium 12px/16px Roboto;
+                                letter-spacing: 0px;'>" . $row['Customers_no'] . "</td>
                                 </tr> ";
                             }
 
@@ -492,11 +490,13 @@ include 'backend.php';
 
                     <table class="table">
                         <thead>
-                            <tr class="bg-dark text-light" style="height:90px; text-align: center;">
-                                <th class="mb-3 pb-5 justify-content-center align-items-center" style="text-align: center;font-size:1.2vh;" scope="col ">S.No.</th>
-                                <th class="mb-3 pb-5" style="text-align: center;font-size:1.2vh;" scope="col">Referral Program Name
+                            <tr class="bg-dark text-light" style="height:65px; text-align: center;">
+                                <th class="mb-3 pb-4 justify-content-center align-items-center" style="text-align: center;font-size:1.2vh;" scope="col ">S.No.</th>
+                                <th class="mb-3 pb-4" style="text-align: center;font-size:1.2vh;font: normal normal medium 12px/16px Roboto;
+letter-spacing: 0px;" scope="col">Referral Program Name
                                 </th>
-                                <th class="mb-3 pb-5" style="text-align: center;border-bottom:4px solid #F3BB03;font-size:1.2vh;" scope="col">Ordered Placed using
+                                <th class="mb-3 pb-4" style="text-align: center;border-bottom:4px solid #F3BB03;font-size:1.2vh;font: normal normal medium 12px/16px Roboto;
+letter-spacing: 0px;" scope="col">Ordered Placed using
                                     Coupon</th>
                             </tr>
                         </thead>
@@ -506,10 +506,12 @@ include 'backend.php';
 
                             while ($row = mysqli_fetch_assoc($result3)) {
 
-                                echo " <tr style='height: 80px;text-align: center;'>
+                                echo " <tr style='height: 70px;text-align: center;'>
                               <th class='pt-5' style='text-align: center;font-size:1.2vh;' scope='row'>" . $row['Sn'] . "</th>
-                              <td class='pt-5' style='text-align: center;font-weight:550;font-size:1.2vh; '>" . $row['Refferal_Programme_name'] . "</td>
-                              <td class='pt-5' style='text-align: center;font-weight:550;font-size:1.2vh'>" . $row['Order_placed'] . "</td>
+                              <td class='pt-5' style='text-align: center;font-weight:550;font-size:1.2vh;font: normal normal medium 12px/16px Roboto;
+                              letter-spacing: 0px; '>" . $row['Refferal_Programme_name'] . "</td>
+                              <td class='pt-5' style='text-align: center;font-weight:550;font-size:1.2vh;font: normal normal medium 12px/16px Roboto;
+                              letter-spacing: 0px;'>" . $row['Order_placed'] . "</td>
                           </tr>";
                             }
 
@@ -523,11 +525,13 @@ include 'backend.php';
                     opacity: 1;">
                     <table class="table">
                         <thead>
-                            <tr class="bg-dark text-light" style="height:90px; text-align: center;">
-                                <th class="mb-3 pb-5 justify-content-center align-items-center" style="text-align: center;font-size:1.2vh;" scope="col ">S.No.</th>
-                                <th class="mb-3 pb-5" style="text-align: center;font-size:1.2vh;" scope="col">Referral Program Name
+                            <tr class="bg-dark text-light" style="height:65px; text-align: center;">
+                                <th class="mb-3 pb-4 justify-content-center align-items-center" style="text-align: center;font-size:1.2vh;" scope="col ">S.No.</th>
+                                <th class="mb-3 pb-4" style="text-align: center;font-size:1.2vh;font: normal normal medium 12px/16px Roboto;
+letter-spacing: 0px;" scope="col">Referral Program Name
                                 </th>
-                                <th class="mb-3 pb-5" style="text-align: center;border-bottom:4px solid #F3BB03;font-size:1.2vh;" scope="col">Total Revenue</th>
+                                <th class="mb-3 pb-4" style="text-align: center;border-bottom:4px solid #F3BB03;font-size:1.2vh;font: normal normal medium 12px/16px Roboto;
+letter-spacing: 0px;" scope="col">Total Revenue</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -535,10 +539,12 @@ include 'backend.php';
 
                             while ($row = mysqli_fetch_assoc($result4)) {
 
-                                echo " <tr style='height: 80px;text-align: center;'>
+                                echo " <tr style='height: 70px;text-align: center;'>
                               <th class='pt-5' style='text-align: center;font-size:1.2vh;' scope='row'>" . $row['Sn'] . "</th>
-                              <td class='pt-5' style='text-align: center;font-weight:550;font-size:1.2vh; '>" . $row['Refferal_Programme_name'] . "</td>
-                              <td class='pt-5' style='text-align: center;font-weight:550;font-size:1.2vh;'>" . '$' . $row['Total_revenue'] . "</td>
+                              <td class='pt-5' style='text-align: center;font-weight:550;font-size:1.2vh;font: normal normal medium 12px/16px Roboto;
+                              letter-spacing: 0px; '>" . $row['Refferal_Programme_name'] . "</td>
+                              <td class='pt-5' style='text-align: center;font-weight:550;font-size:1.2vh;font: normal normal medium 12px/16px Roboto;
+                              letter-spacing: 0px;'>" . '$' . $row['Total_revenue'] . "</td>
                           </tr>";
                             }
 
@@ -553,25 +559,29 @@ include 'backend.php';
 
                     <table class="table">
                         <thead>
-                            <tr class="bg-dark text-light" style="height:90px; text-align: center;">
-                                <th class="mb-3 pb-5 justify-content-center align-items-center" style="text-align: center;font-size:1.2vh;" scope="col ">S.No.</th>
-                                <th class="mb-3 pb-5" style="text-align: center;font-size:1.2vh;" scope="col">Referral Program Name
+                            <tr class="bg-dark text-light" style="height:65px; text-align: center;">
+                                <th class="mb-3 pb-4 justify-content-center align-items-center" style="text-align: center;font-size:1.2vh;" scope="col ">S.No.</th>
+                                <th class="mb-3 pb-4" style="text-align: center;font-size:1.2vh;font: normal normal medium 12px/16px Roboto;
+letter-spacing: 0px;" scope="col">Referral Program Name
                                 </th>
-                                <th class="mb-3 pb-5" style="text-align: center;border-bottom:4px solid #F3BB03;font-size:1.2vh;" scope="col">Audience Weightage
+                                <th class="mb-3 pb-4" style="text-align: center;border-bottom:4px solid #F3BB03;font-size:1.2vh;font: normal normal medium 12px/16px Roboto;
+letter-spacing: 0px;" scope="col">Audience Weightage
                                 </th>
 
                             </tr>
                         </thead>
                         <tbody>
-                            <tr style="height: 80px;text-align: center;">
+                            <tr style="height: 70px;text-align: center;">
                                 <th class="pt-5" style="text-align: center;font-size:1.2vh;" scope="row">1.</th>
-                                <td class="pt-5" style="text-align: center;font-weight:550;font-size:1.2vh; ">My Referal mobile 1
+                                <td class="pt-5" style="text-align: center;font-weight:550;font-size:1.2vh;font: normal normal medium 12px/16px Roboto;
+letter-spacing: 0px; ">My Referal mobile 1
                                 </td>
                                 <td class="pt-5"><button type="button" style="border-radius:12px;border-color:#AEB0E9;border: none; color:white; background-color: #AEB0E9; width:80px;" class="btn-sm justify-content-center">50%<i style="font-size:12px ;margin-left:10px;margin-right:-17px;" class='fas'>&#xf107;</i></button></td>
                             </tr>
                             <tr style="height: 80px;text-align: center;">
                                 <th class="pt-5" style="text-align: center;font-size:1.2vh;" scope="row">2.</th>
-                                <td class="pt-5" style="text-align: center;font-weight:550;font-size:1.2vh;">My Referal Program 2
+                                <td class="pt-5" style="text-align: center;font-weight:550;font-size:1.2vh;font: normal normal medium 12px/16px Roboto;
+letter-spacing: 0px;">My Referal Program 2
                                 </td>
                                 <td class="pt-5"><button type="button" style="border-radius:12px;border-color:#AEB0E9;border: none; color:white; background-color: #AEB0E9; width:80px;" class="btn-sm justify-content-center">50%<i style="font-size:12px ;margin-left:10px;margin-right:-17px;" class='fas'>&#xf107;</i></button></td>
                             </tr>
@@ -583,23 +593,27 @@ include 'backend.php';
                     opacity: 1;">
                     <table class="table">
                         <thead>
-                            <tr class="bg-dark text-light" style="height:90px; text-align: center;">
-                                <th class="mb-3 pb-5 justify-content-center align-items-center" style="text-align: center;font-size:1.2vh;" scope="col ">S.No.</th>
-                                <th class="mb-3 pb-5" style="text-align: center;font-size:1.2vh;" scope="col">Referral Program Name
+                            <tr class="bg-dark text-light" style="height:65px; text-align: center;">
+                                <th class="mb-3 pb-4 justify-content-center align-items-center" style="text-align: center;font-size:1.2vh;" scope="col ">S.No.</th>
+                                <th class="mb-3 pb-4" style="text-align: center;font-size:1.2vh;font: normal normal medium 12px/16px Roboto;
+letter-spacing: 0px;" scope="col">Referral Program Name
                                 </th>
-                                <th class="mb-3 pb-5" style="text-align: center;border-bottom:4px solid #F3BB03;border-left:10%; border-right:10%;font-size:1.2vh; " scope="col">Preview/Setting</th>
+                                <th class="mb-3 pb-4" style="text-align: center;border-bottom:4px solid #F3BB03;border-left:10%; border-right:10%;font-size:1.2vh;font: normal normal medium 12px/16px Roboto;
+letter-spacing: 0px; " scope="col">Preview/Setting</th>
                             </tr>
                         </thead>
                         <tbody>
-                            <tr style="height: 80px;text-align: center;">
+                            <tr style="height: 70px;text-align: center;">
                                 <th class="pt-5" style="text-align: center;font-size:1.2vh;" scope="row">1.</th>
-                                <td class="pt-5" style="text-align: center;font-weight:550;font-size:1.2vh; ">My Referal mobile 1
+                                <td class="pt-5" style="text-align: center;font-weight:550;font-size:1.2vh;font: normal normal medium 12px/16px Roboto;
+letter-spacing: 0px; ">My Referal mobile 1
                                 </td>
                                 <td class="pt-5"><button type="button" style="border-radius:12px;border:none;box-shadow: 0px 3px 10px #00000047; width:70px; background-color: #F3BB03; color: white; border-color: #F3BB03;" class="btn-sm">Edit</button></td>
                             </tr>
-                            <tr style="height: 80px;text-align: center;">
+                            <tr style="height: 70px;text-align: center;">
                                 <th class="pt-5" style="text-align: center;font-size:1.2vh;" scope="row">2.</th>
-                                <td class="pt-5" style="text-align: center;font-weight:550;font-size:1.2vh;">My Referal Program 2
+                                <td class="pt-5" style="text-align: center;font-weight:550;font-size:1.2vh;font: normal normal medium 12px/16px Roboto;
+letter-spacing: 0px;">My Referal Program 2
                                 </td>
                                 <td class="pt-5"><button type="button" style="border-radius:12px;border:none;box-shadow: 0px 3px 10px #00000047; width:70px; background-color: #F3BB03; color: white; border-color: #F3BB03;" class="btn-sm">Edit</button></td>
                             </tr>
@@ -607,7 +621,7 @@ include 'backend.php';
                     </table>
                 </div>
             </div>
-            <div class="container my-5">
+            <div class="my-5">
                 <div class="d-flex justify-content-center">
                     <div class="spinner-border" role="status">
                         <span class="visually-hidden">Loading...</span>
@@ -617,20 +631,24 @@ include 'backend.php';
         </div>
         <div id="analytics" class="tab-pane fade">
             <div class="container my-4">
-                <div class="row">
-                    <div class="col-6 col-sm-6 col-md-6 col-lg-6 mx-0 d-flex justify-content-center">
-                        <img class="img-fluid img-responsive" src="./ticket-1.png" alt="" srcset="">
+                <div class="row my-2">
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-6 d-flex justify-content-end">
+                        <img class="img-fluid" style="box-shadow: 0px 3px 6px #00000029;border-radius: 12px;
+opacity: 1;" src="./ticket-1.png" alt="" srcset="">
                     </div>
-                    <div class="col-6 col-sm-6 col-md-6 col-lg-6 mx-0 d-flex justify-content-center ">
-                        <img class="img-fluid img-responsive" src="./ticket-2.png" alt="" srcset="">
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-6 d-flex justify-content-start">
+                        <img class="img-fluid"  style="box-shadow: 0px 3px 6px #00000029;border-radius: 12px;
+opacity: 1;" src="./ticket-2.png" alt="" srcset="">
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-6 col-sm-6 col-md-6 col-lg-6 mx-0 d-flex justify-content-center">
-                        <img class="img-fluid img-responsive" src="./ticket-3.png" alt="" srcset="">
+                <div class="row my-2">
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-6 mx-0 d-flex justify-content-end">
+                        <img class="img-fluid" style="box-shadow: 0px 3px 6px #00000029;border-radius: 12px;
+opacity: 1;" src="./ticket-3.png" alt="" srcset="">
                     </div>
-                    <div class="col-6 col-sm-6 col-md-6 col-lg-6 mx-0s d-flex justify-content-center">
-                        <img class="img-fluid img-responsive" src="./ticket-4.png" alt="" srcset="">
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-6 mx-0s d-flex justify-content-start">
+                        <img class="img-fluid" style="box-shadow: 0px 3px 6px #00000029;border-radius: 12px;
+opacity: 1;" src="./ticket-4.png" alt="" srcset="">
                     </div>
                 </div>
             </div>
@@ -640,6 +658,7 @@ include 'backend.php';
 
         </div>
 
+    </div>
     </div>
     </div>
     </div>
