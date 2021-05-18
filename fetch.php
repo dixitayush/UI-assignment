@@ -15,7 +15,7 @@ if(isset($_POST["limit"], $_POST["start"]))
      $arr['Order_placed']=$row['Order_placed'];
      $arr['Total_revenue']=$row['Total_revenue'];
      
-   
+    
     
      array_push($customer, $arr);
            
