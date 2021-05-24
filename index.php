@@ -1,4 +1,3 @@
-
 <html lang="en">
 
 <head>
@@ -408,23 +407,18 @@
                                     <th class="mb-3 pb-5" style="text-align: center;" scope="col">Preview/Settings</th>
                                 </tr>
                             </thead>
-                            <tbody id="table_data">
-                               
-                            
-
+                            <tbody id="table0">
                             </tbody>
+                            
+        
                         </table>
+                       
                     </div>
-
-                    <div class="my-5">
-                        <div class="d-flex justify-content-center">
-                            <div id="table_data_message" class="spinner-border" role="status">
-                                <span class="visually-hidden">Loading...</span>
-                            </div>
-                        </div>
-                    </div>
+                       
                 </div>
-
+                <div class="container d-flex justify-content-center">
+                        <div id="load_data_message"></div>
+                        </div>
                 <div class="my-3" id="div-mobile">
                     <div class="table-responsive my-3" style="box-shadow: 0px 3px 20px #00000029;
                     border-radius:28px;
@@ -446,13 +440,13 @@ letter-spacing: 0px;" scope="col"><span>Customers</span>
 
                                 </tr>
                             </thead>
-                            <tbody id="table_data1">
-                              
+                            <tbody id="table1">
+
 
 
                             </tbody>
                         </table>
-                       
+
                     </div>
 
                     <div class="table-responsive my-3" style="box-shadow: 0px 3px 20px #00000029;
@@ -471,9 +465,9 @@ letter-spacing: 0px;" scope="col">Ordered Placed using
                                         Coupon</th>
                                 </tr>
                             </thead>
-                            <tbody id="table_data2">
+                            <tbody id="table2">
 
-                            
+
 
                             </tbody>
                         </table>
@@ -493,8 +487,8 @@ letter-spacing: 0px;" scope="col">Referral Program Name
 letter-spacing: 0px;" scope="col">Total Revenue</th>
                                 </tr>
                             </thead>
-                            <tbody id="table_data3" >
-                            
+                            <tbody id="table3">
+
 
                             </tbody>
                         </table>
@@ -517,8 +511,8 @@ letter-spacing: 0px;" scope="col">Audience Weightage
 
                                 </tr>
                             </thead>
-                            <tbody id="table_data4" >
-                            
+                            <tbody id="table4">
+
 
                             </tbody>
                         </table>
@@ -538,14 +532,14 @@ letter-spacing: 0px;" scope="col">Referral Program Name
 letter-spacing: 0px; " scope="col">Preview/Setting</th>
                                 </tr>
                             </thead>
-                            <tbody id="table_data5" >
-                            
+                            <tbody id="table5">
+
 
                             </tbody>
                         </table>
                     </div>
 
-                 
+
                 </div>
 
 
@@ -593,109 +587,105 @@ opacity: 1;" src="./ticket-4.png" alt="" srcset="">
     <script src="./index.js"></script>
 
     <script>
-        $(document).on('click', '.slider-tabs .nav-link', function() {
-            handleTabChange($(this));
-        });
+$(document).on('click', '.slider-tabs .nav-link', function() {
+    handleTabChange($(this));
+});
 
-        handleTabChange($('.slider-tabs .active'));
+handleTabChange($('.slider-tabs .active'));
 
-        function handleTabChange(tab) {
-            var nav = tab.closest('.nav');
-            $('.indicator', nav).css({
-                width: tab.outerWidth(),
-                left: tab.position().left
-            });
-            tab.siblings().removeClass('active');
-            tab.addClass('active');
-        }
-    </script>
-
-
-    <script>
-        function openCity(evt) {
-            var i, x, tablinks;
-
-            tablinks = document.getElementsByClassName("tablink");
-            for (i = 0; i < x.length; i++) {
-                tablinks[i].className = tablinks[i].className.replace(" w3-border-yellow", "");
-            }
-            evt.currentTarget.firstElementChild.className += " w3-border-yellow";
-        }
-    </script>
-
-
-    <script>
-        function setColor() {
-            var count = 1;
-            var property = document.getElementById('change');
-            if (count == 0) {
-                property.style.backgroundColor = "blue"
-                count = 1;
-            } else {
-                property.style.backgroundColor = "yellow"
-                count = 0;
-            }
-
-        }
-    </script>
-
-
-
-    <script>
-        $('.carousel').carousel();
-    </script>
-
-
-
-
-</body>
-
-</html>
-<script>
-    $(document).ready(function() {
-
-        var limit = 5;
-        var start = 0;
-        var action = 'inactive';
-
-        function load_table_data(limit, start) {
-            $.ajax({
-                url: "table0.php",
-                method: "POST",
-                data: {
-                    limit: limit,
-                    start: start
-                },
-                cache: false,
-                success: function(data) {
-                    $('#table_data').append(data);
-                    if (data == '') {
-                        $('#table_data_message').html("<button type='button' class='btn btn-info'>No Data Found</button>");
-                        action = 'active';
-                    } else {
-                        $('#table_data_message').html(" ");
-                        action = "inactive";
-                    }
-                }
-            });
-        }
-
-        if (action == 'inactive') {
-            action = 'active';
-            load_table_data(limit, start);
-        }
-        $(window).scroll(function() {
-            if ($(window).scrollTop() + $(window).height() > $("#table_data").height() && action == 'inactive') {
-                action = 'active';
-                start = start + limit;
-                setTimeout(function() {
-                    load_table_data(limit, start);
-                }, 3000);
-            }
-        });
-
+function handleTabChange(tab) {
+    var nav = tab.closest('.nav');
+    $('.indicator', nav).css({
+        width: tab.outerWidth(),
+        left: tab.position().left
     });
+    tab.siblings().removeClass('active');
+    tab.addClass('active');
+}
+</script>
+
+
+<script>
+function openCity(evt) {
+    var i, x, tablinks;
+
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < x.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" w3-border-yellow", "");
+    }
+    evt.currentTarget.firstElementChild.className += " w3-border-yellow";
+}
+</script>
+
+
+<script>
+function setColor() {
+    var count = 1;
+    var property = document.getElementById('change');
+    if (count == 0) {
+        property.style.backgroundColor = "blue"
+        count = 1;
+    } else {
+        property.style.backgroundColor = "yellow"
+        count = 0;
+    }
+
+}
 </script>
 
 
 
+    </body>
+
+</html>
+
+
+<script>
+
+$(document).ready(function(){
+	
+	var limit = 5;
+	var start = 0;
+	var action = 'inactive';
+	function load_data(limit, start)
+	{
+		$.ajax({
+			url:"table0.php",
+			method:"POST",
+			data:{limit:limit, start:start},
+			cache:false,
+			success:function(data)
+			{
+				$('#table0').append(data);
+				if(data == '')
+				{
+					$('#load_data_message').html("<p>No Data Found</p>");
+					action = 'active';
+				}
+				else
+				{
+					$('#load_data_message').html("<p>Please Wait....</p>");
+					action = "inactive";
+				}
+			}
+		});
+	}
+
+	if(action == 'inactive')
+	{
+		action = 'active';
+		load_data(limit, start);
+	}
+	$(window).scroll(function(){
+		if($(window).scrollTop() + $(window).height() > $("#table0").height() && action == 'inactive')
+		{
+			action = 'active';
+			start = start + limit;
+			setTimeout(function(){
+				load_data(limit, start);
+			}, 2000);
+		}
+	});
+	
+});
+</script>

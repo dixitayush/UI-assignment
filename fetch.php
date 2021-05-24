@@ -1,13 +1,13 @@
-
+ 
 <?php
-include 'connection.php';
-
 if(isset($_POST["limit"], $_POST["start"]))
 {
-    $sql = "SELECT * FROM customer ORDER BY Sn ASC LIMIT ".$_POST["start"].", ".$_POST["limit"]."";
-    $result = mysqli_query($conn, $sql);
-   $customer =array();
-    while ($row = mysqli_fetch_assoc($result)) {
+ $connect = mysqli_connect("localhost", "root", "", "table");
+ $sql = "SELECT * FROM customer ORDER BY Sn ASC LIMIT ".$_POST["start"].", ".$_POST["limit"]."";
+ $result = mysqli_query($connect, $sql);
+ $customer =array();
+ while($row = mysqli_fetch_array($result))
+{
 
      $arr['sn'] = $row['Sn'];
      $arr['refferal_programme_name']=$row['Refferal_Programme_name'];
@@ -18,7 +18,8 @@ if(isset($_POST["limit"], $_POST["start"]))
     
     
      array_push($customer, $arr);
-           
+     print_r($customer);
+  
         
     }
    $var = json_encode($customer);
